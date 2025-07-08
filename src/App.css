@@ -1,0 +1,10 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #444444;
+  scroll-behavior: smooth;
+}
+
+h1, h2 {
+  color: #003399;
+}
