@@ -17,7 +17,7 @@ export default function Hero() {
             <a href="#projects" className="mt-6 inline-block bg-blue-700 text-white lg:text-xl px-6 py-3 rounded-t-4xl rounded-b-2xl shadow hover:bg-blue-800 transition">Geospatial Portfolio</a>
         </div>
                                 {/* Scroll down */}
-        <div className=" absolute text-sm rotate-0 text-gray-400 animate-pulse mt-30 sm:mt-22 lg:mt-37 ">Scroll down ↓</div>
+        <div className=" absolute text-sm rotate-0 text-gray-400 animate-pulse mt-30 sm:mt-22 lg:mt-34 ">Scroll down ↓</div>
       </div>
 
 
