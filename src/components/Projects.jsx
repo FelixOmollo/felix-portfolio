@@ -1,5 +1,8 @@
 import { ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import footerBg2 from '../assets/footerBg2.jpg';
+
+
 
 const featuredSkill_p1 = [
   "ArcGIS Pro", "QGIS", "Pix4Dmapper", "Python", "ReactJS"
@@ -30,7 +33,7 @@ export default function Projects() {
                 {/* Image div */}
                 <div className="flex justify-center">
 
-                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src="src\assets\footerBg2.jpg" alt="Dummy" />
+                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
 
                 </div>
 
@@ -73,7 +76,7 @@ export default function Projects() {
                 {/* Image div */}
                 <div className="flex justify-center ">
 
-                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src="src\assets\dummy.jpg" alt="Dummy" />
+                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
 
                 </div>
 
@@ -110,7 +113,7 @@ export default function Projects() {
           <div className="bg-amber-400 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
                 {/* Image div */}
                 <div className="flex justify-center ">
-                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src="src\assets\dummy.jpg" alt="Dummy" />
+                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
                 </div>
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">
@@ -142,7 +145,7 @@ export default function Projects() {
           <div className="bg-amber-200 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
                 {/* Image div */}
                 <div className="flex justify-center ">
-                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src="src\assets\dummy.jpg" alt="Dummy" />
+                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
                 </div>
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">

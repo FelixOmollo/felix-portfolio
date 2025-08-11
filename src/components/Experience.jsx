@@ -2,6 +2,10 @@ import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import Layout from './Layout';
 import { Briefcase, Award, Calendar, BadgeCheck, Eye } from 'lucide-react';
+import ramani2 from '../assets/ramani2.png';
+import kengen from '../assets/kengen.webp';
+import rotaract from '../assets/rotaract.webp';
+import ttu from '../assets/ttu.jpeg';
 // Swiper imports
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
@@ -83,7 +87,7 @@ export default function Experience() {
             <div className='relative md:pl-25'>
 
                 <div className='absolute ml-4 sm:ml-2 sm:mt-45 h-15 w-15 sm:w-20 sm:h-20 md:mx-auto md:left-0 md:right-0'>
-                  <img src="src\assets\ramani2.png" alt="Compnay Logo" 
+                  <img src={ramani2} alt="Compnay Logo" 
                   className='absolute w-15 h-15 sm:w-20 sm:h-20 rounded-full object-cover border-3 sm:border-4 border-white'/>
                 </div>
 
@@ -104,7 +108,7 @@ export default function Experience() {
             <div className='relative md:pr-25'>
 
                 <div className='absolute ml-4 sm:ml-2 sm:mt-45 h-15 w-15 sm:w-20 sm:h-20 md:mx-auto md:left-0 md:right-0'>
-                  <img src="src\assets\ramani2.png" alt="Compnay Logo" 
+                  <img src={ramani2} alt="Compnay Logo" 
                   className='absolute w-15 h-15 sm:w-20 sm:h-20 rounded-full object-cover border-3 sm:border-4 border-white z-1'/>
                 </div>
 
@@ -126,7 +130,7 @@ export default function Experience() {
             <div className='relative md:pl-25'>
 
                 <div className='absolute ml-4 sm:ml-2 sm:mt-45 h-15 w-15 sm:w-20 sm:h-20 md:mx-auto md:left-0 md:right-0'>
-                  <img src="src\assets\kengen.webp" alt="Compnay Logo" 
+                  <img src={kengen} alt="Compnay Logo" 
                   className='absolute w-15 h-15 sm:w-20 sm:h-20 rounded-full object-cover border-3 sm:border-4 border-white z-1'/>
                 </div>
 
@@ -147,7 +151,7 @@ export default function Experience() {
             <div className='relative md:pr-25'>
 
                 <div className='absolute ml-4 sm:ml-2 sm:mt-45 h-15 w-15 sm:w-20 sm:h-20 md:mx-auto md:left-0 md:right-0'>
-                  <img src="src\assets\ttu.jpeg" alt="Compnay Logo" 
+                  <img src={ttu} alt="Compnay Logo" 
                   className='absolute w-15 h-15 sm:w-20 sm:h-20 rounded-full object-cover border-3 sm:border-4 border-white z-1'/>
                 </div>
 
@@ -168,7 +172,7 @@ export default function Experience() {
             <div className='relative md:pl-25'>
 
                 <div className='absolute ml-4 sm:ml-2 sm:mt-45 h-15 w-15 sm:w-20 sm:h-20 md:mx-auto md:left-0 md:right-0'>
-                  <img src="src\assets\rotaract.webp" alt="Compnay Logo" 
+                  <img src={rotaract} alt="Compnay Logo" 
                   className='absolute w-15 h-15 sm:w-20 sm:h-20 rounded-full object-cover border-3 sm:border-4 border-white z-1'/>
                 </div>
 
