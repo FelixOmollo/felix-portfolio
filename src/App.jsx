@@ -1,26 +1,17 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import DetailsPage from './components/Detailspage';
 import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Certificates from './components/Certificates';
-import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Certificates/>
-      <Contact />
-      <Footer/>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/details" element={<DetailsPage />} />
+        <Route path='/experience' element={<Experience />} />
+      </Routes>
+    </Router>
   );
 }
 
