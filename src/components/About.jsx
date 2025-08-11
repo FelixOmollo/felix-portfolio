@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import ProfilePic from '../assets/ProfilePic.jpg'
 
 const skills = [
   "ArcGIS Pro", "QGIS", "Pix4Dmapper", "Python", "ReactJS",
@@ -25,7 +26,7 @@ export default function About() {
         {/* Pic */}
         <div className="bg-gren-400 sm:col-span-1 lg:col-span-3 lg:col-start-1 rounded-2xl place-items-center sm:self-start gap-5 py-4 sm:row-start-1 sm:col-start-1" >
 
-          <img className="h-40 w-40 object-cover rounded-full border-4 border-white" src="src\assets\ProfilePic.jpg" alt="Profile Photo"/>
+          <img className="h-40 w-40 object-cover rounded-full border-4 border-white" src={ProfilePic} alt="Profile Photo"/>
           <div className="font-bold mt-10 sm:mt-7 lg:text-lg">你好！(Nǐ hǎo!) 👋</div>
 
         </div>
