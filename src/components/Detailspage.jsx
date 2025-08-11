@@ -1,6 +1,8 @@
 import { ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Layout from './Layout';
+import detailsDummy from '../assets/detailsDummy.jpg';
+
 
 const featuredSkill_p1 = [
   "ArcGIS Pro", "QGIS", "Pix4Dmapper", "Python", "ReactJS"
@@ -32,7 +34,7 @@ export default function Projects() {
               {/* Hero's Container */}
               <div className='relative bg-black/40 rounded-2xl sm:col-span-full md:col-span-2 lg:col-span-6 lg:mb-2'>
                 {/* Image div */}
-                <img className="w-full h-full sm:h-85 lg:h-95 object-cover rounded-2xl" src="src\assets\detailsDummy.jpg" alt="dummy image" />
+                <img className="w-full h-full sm:h-85 lg:h-95 object-cover rounded-2xl" src={detailsDummy} alt="dummy image" />
                 {/* Text overlay div */}
                 <div className='absolute inset-0 flex flex-col justify-center sm:justify-end sm:mb-5 lg:mb-10 text-white text-left px-4 sm:px-6 lg:px-8 sm:text-lg'>
                   <span className='inline-block bg-green-800 text-sm text-white font-semibold px-2 py-1 mb-4 rounded-full w-max'>Urban Planning</span>
