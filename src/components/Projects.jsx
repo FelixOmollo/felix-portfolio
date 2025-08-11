@@ -40,8 +40,8 @@ export default function Projects() {
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">
 
-                  <h2 className="font-bold flex text-xl md:mb-2">Urban Development</h2>
-                  <p className="flex py-2 lg:pr-3 lg:text-lg">Comprehensive spatial analysis for sustainable urban planning, including zoning optimization, demographic analysis, and infrastructure planning.
+                  <h2 className="font-bold flex text-xl md:text-2xl md:mb-2">Urban Development</h2>
+                  <p className="flex py-2 lg:pr-3 md:text-lg lg:text-lg">Comprehensive spatial analysis for sustainable urban planning, including zoning optimization, demographic analysis, and infrastructure planning.
                   </p>
 
                 </div>
@@ -50,7 +50,7 @@ export default function Projects() {
                 <div className="flex flex-wrap items-center mt-3 ml-5 pr-2 gap-3">
 
                       {featuredSkill_p1.map(skill => (
-                        <span key={skill} className="bg-green-200 text-green-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
+                        <span key={skill} className="bg-green-200 text-green-800 text-sm md:text-lg md:py-0 font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
                           {skill}
                         </span>
                       ))}
@@ -59,11 +59,11 @@ export default function Projects() {
 
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white py-2 lg:text-lg font-medium rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
+                  <Link to="/details" className="inline-block bg-blue-700 text-white py-2 md:text-lg lg:text-lg font-medium rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-white text-green-800 p-2 rounded-md hover:bg-green-100 transition"> 
-                    <ExternalLink className="w-5 h-5" />
+                    <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 </div>
 
@@ -82,15 +82,15 @@ export default function Projects() {
 
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">
-                  <h2 className="font-bold flex text-xl md:mb-2">Urban Development</h2>
-                  <p className="flex py-2 lg:pr-3 lg:text-lg">Comprehensive spatial analysis for sustainable urban planning, including zoning optimization, demographic analysis, and infrastructure planning.
+                  <h2 className="font-bold flex text-xl md:text-2xl md:mb-2">Urban Development</h2>
+                  <p className="flex py-2 lg:pr-3 md:text-lg lg:text-lg">Comprehensive spatial analysis for sustainable urban planning, including zoning optimization, demographic analysis, and infrastructure planning.
                   </p>
                 </div>
 
                 {/* Featured skills div */}
                 <div className="flex flex-wrap items-center mt-3 ml-5 pr-2 gap-3">
                       {featuredSkill_p1.map(skill => (
-                        <span key={skill} className="bg-green-200 text-green-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
+                        <span key={skill} className="bg-green-200 text-green-800 text-sm md:text-lg font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
                           {skill}
                         </span>
                       ))}
@@ -98,11 +98,11 @@ export default function Projects() {
 
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white lg:text-lg font-medium py-2 rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
+                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-2xl lg:text-lg font-medium py-2 rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-white text-green-800 p-2 rounded-md hover:bg-green-100 transition"> 
-                    <ExternalLink className="w-5 h-5" />
+                    <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 </div>
 
@@ -117,25 +117,25 @@ export default function Projects() {
                 </div>
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">
-                  <h2 className="font-bold flex text-xl md:mb-2">Urban Development</h2>
-                  <p className="flex py-2 lg:pr-3 lg:text-lg">Comprehensive spatial analysis for sustainable urban planning, including zoning optimization, demographic analysis, and infrastructure planning.
+                  <h2 className="font-bold flex md:text-2xl text-xl md:mb-2">Urban Development</h2>
+                  <p className="flex py-2 lg:pr-3 md:text-lg lg:text-lg">Comprehensive spatial analysis for sustainable urban planning, including zoning optimization, demographic analysis, and infrastructure planning.
                   </p>
                 </div>
                 {/* Featured skills div */}
                 <div className="flex flex-wrap items-center mt-3 ml-5 pr-2 gap-3">
                       {featuredSkill_p1.map(skill => (
-                        <span key={skill} className="bg-green-200 text-green-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
+                        <span key={skill} className="bg-green-200 text-green-800 text-sm md:text-lg font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
                           {skill}
                         </span>
                       ))}
                 </div>
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white py-2 lg:text-lg font-medium rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
+                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg py-2 lg:text-lg font-medium rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-white text-green-800 p-2 rounded-md hover:bg-green-100 transition"> 
-                    <ExternalLink className="w-5 h-5" />
+                    <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 </div>
           </div>
@@ -149,25 +149,25 @@ export default function Projects() {
                 </div>
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">
-                  <h2 className="font-bold flex text-xl md:mb-2">Urban Development</h2>
-                  <p className="flex py-2 lg:pr-3 lg:text-lg">Comprehensive spatial analysis for sustainable urban planning, including zoning optimization, demographic analysis, and infrastructure planning.
+                  <h2 className="font-bold flex text-xl md:mb-2 md:text-2xl">Urban Development</h2>
+                  <p className="flex py-2 lg:pr-3 md:text-lg lg:text-lg">Comprehensive spatial analysis for sustainable urban planning, including zoning optimization, demographic analysis, and infrastructure planning.
                   </p>
                 </div>
                 {/* Featured skills div */}
                 <div className="flex flex-wrap items-center mt-3 ml-5 pr-2 gap-3">
                       {featuredSkill_p1.map(skill => (
-                        <span key={skill} className="bg-green-200 text-green-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
+                        <span key={skill} className="bg-green-200 text-green-800 text-sm md:text-lg font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
                           {skill}
                         </span>
                       ))}
                 </div>
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white lg:text-lg font-medium py-2 rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
+                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-white text-green-800 p-2 rounded-md hover:bg-green-100 transition"> 
-                    <ExternalLink className="w-5 h-5" />
+                    <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 </div>
           </div>
