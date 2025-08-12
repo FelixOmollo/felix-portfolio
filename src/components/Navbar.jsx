@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 shadow-[0_0px_30px_rgba(227,228,237,0.37)] backdrop-blur-md border-2 border-[rgba(255,255,255,0.18)]">
       <div className="flex justify-between items-center px-6 py-4">
-        <Link to="/#hero" className="text-xl lg:text-3xl font-bold text-white">FELIX OMOLLO</Link>
+        <Link to="/#hero" className="text-xl md:text-3xl lg:text-3xl font-bold text-white">FELIX OMOLLO</Link>
         
         {/* Hamburger icon */}
         <div className="md:hidden">
@@ -21,7 +21,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Nav Links */}
-        <div className="hidden md:flex lg:text-xl gap-6 lg:mr-10 lg:gap-10 text-white">
+        <div className="hidden md:flex md:text-lg lg:text-xl gap-6 lg:mr-10 lg:gap-10 text-white">
           {["home", "about", "projects", "contact"].map((item) => (
             <Link
               key={item}

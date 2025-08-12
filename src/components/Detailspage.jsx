@@ -37,7 +37,7 @@ export default function Projects() {
                 <img className="w-full h-full sm:h-85 lg:h-95 object-cover rounded-2xl" src={detailsDummy} alt="dummy image" />
                 {/* Text overlay div */}
                 <div className='absolute inset-0 flex flex-col justify-center sm:justify-end sm:mb-5 lg:mb-10 text-white text-left px-4 sm:px-6 lg:px-8 sm:text-lg'>
-                  <span className='inline-block bg-green-800 text-sm text-white font-semibold px-2 py-1 mb-4 rounded-full w-max'>Urban Planning</span>
+                  <span className='inline-block bg-green-800 text-sm text-white md:text-lg font-semibold px-2 py-1 md:mb-5 mb-4 rounded-full w-max'>Urban Planning</span>
                   <h2 className="text-3xl font-bold">Urban Development Analysis</h2>
                   <p className='max-w-xl lg:max-w-none mt-2 text-md lg:text-xl'>Comprehensive spatial analysis for sustainable urban planning, including zoning 
                     optimization, demographic analysis, and infrastructure planning.
@@ -47,14 +47,14 @@ export default function Projects() {
 
               {/* Project review div */}
               <div className='bg-red-300 mt-5 p-4 rounded-2xl sm:col-span-full md:col-span-2 lg:col-span-4'>
-                <h2 className='font-bold flex text-xl mt-2 sm:mt-4 sm:mb-4 justify-start ml-2'>Project Overview</h2>
-                <p className='text-left m-2 lg:text-lg'>This comprehensive urban development analysis project aimed to create a data-driven framework for sustainable city growth. The project involved analyzing demographic patterns, land use efficiency, and infrastructure capacity to inform strategic planning decisions.</p>
+                <h2 className='font-bold flex text-xl mt-2 sm:mt-4 sm:mb-4 justify-start md:text-2xl ml-2'>Project Overview</h2>
+                <p className='text-left m-2 md:text-lg'>This comprehensive urban development analysis project aimed to create a data-driven framework for sustainable city growth. The project involved analyzing demographic patterns, land use efficiency, and infrastructure capacity to inform strategic planning decisions.</p>
               </div>
               {/* Objective div */}
               <div className='bg-red-400 mt-5 p-4 rounded-2xl sm:col-span-full md:col-span-2 lg:col-span-4'>
-                <h2 className='font-bold flex text-xl justify-start ml-2 mt-2 sm:mt-4 sm:mb-4'>Objectives</h2>
+                <h2 className='font-bold flex text-xl justify-start ml-2 mt-2 sm:mt-4 md:text-2xl sm:mb-4'>Objectives</h2>
                 {/* start of list */}
-                <ul className='space-y-2 text-left p-3 lg:text-lg'>
+                <ul className='space-y-2 text-left p-3 md:text-lg'>
                   <li className='flex items-start gap-3'>
                     <span>✔️</span>
                     <span>Develop interactive dashboards for city planners</span>
@@ -82,8 +82,8 @@ export default function Projects() {
                 {/* Challenges div */}
               <div className='bg-green-300 mt-5 p-4 sm:col-span-full md:col-span-1 lg:col-span-2 lg:col-start-1 rounded-2xl'>
 
-                <h2 className='font-bold flex text-xl justify-start ml-2 mt-2'>Challenges</h2>
-                <ul className='list-disc list-inside space-y-1 lg:text-lg text-left p-3'>
+                <h2 className='font-bold flex text-xl justify-start md:text-2xl ml-2 mt-2'>Challenges</h2>
+                <ul className='list-disc list-inside space-y-1 md:text-lg text-left p-3'>
                   <li className=''>Ensuring data accuracy and temporal consistency</li>
                   <li>Creating user-friendly visualization tools for non-technical stakeholders</li>
                   <li>Handling large-scale demographic and geographic datasets</li>
@@ -95,8 +95,8 @@ export default function Projects() {
               {/* Solutions div */}
               <div className='bg-green-400 mt-5 p-4 sm:col-span-full md:col-span-1 lg:col-span-2 rounded-2xl'>
 
-                <h2 className='font-bold flex text-xl justify-start ml-2 mt-2'>Solutions</h2>
-                <ul className='list-disc list-inside space-y-1 text-left lg:text-lg p-3'>
+                <h2 className='font-bold flex text-xl justify-start ml-2 md:text-2xl mt-2'>Solutions</h2>
+                <ul className='list-disc list-inside space-y-1 text-left md:text-lg p-3'>
                   <li>Established data quality protocols and validation procedures</li>
                   <li>Created interactive web-based dashboards using modern web technologies</li>
                   <li>Developed custom Python scripts for spatial analysis</li>
@@ -107,9 +107,9 @@ export default function Projects() {
 
               {/* Key results and Impact */}
               <div className='bg-red-300 mt-5 p-4 rounded-2xl sm:col-span-full md:col-span-2 lg:col-span-4'>
-                <h2 className='font-bold flex text-xl justify-start ml-2 mt-2'>Key Results and Impact</h2>
+                <h2 className='font-bold flex text-xl justify-start md:text-2xl ml-2 mt-2'>Key Results and Impact</h2>
                 {/* start of list */}
-                <ul className=' lg:text-lg space-y-2 text-left p-3 md:p-0 grid grid-cols-1 md:mt-3 md:grid-cols-2 gap-x-8 lg:grid-cols-2'>
+                <ul className=' md:text-lg space-y-2 text-left p-3 md:p-0 grid grid-cols-1 md:mt-3 md:grid-cols-2 gap-x-8 lg:grid-cols-2'>
                   <li className='flex items-start gap-3'>
                     <span>✔️</span>
                     <span>Develop interactive dashboards for city planners</span>
@@ -137,10 +137,10 @@ export default function Projects() {
               {/* Featured skills div */}
               <div className='bg-amber-400 rounded-2xl p-4 mt-5 md:col-span-1 lg:col-span-2 lg:row-start-2 lg:col-start-5'>
 
-                <h2 className='font-bold flex text-xl justify-start ml-2 mt-2'>Technologies Used</h2>
+                <h2 className='font-bold flex text-xl md:text-2xl justify-start ml-2 mt-2'>Technologies Used</h2>
                 <div className=" flex flex-wrap items-center mt-5 mb-5 gap-3">
                     {featuredSkill_p1.map(skill => (
-                      <span key={skill} className="bg-green-200 text-green-800 text-sm lg:text-lg font-medium px-2 py-1 lg:py-0 rounded-full hover:bg-amber-300 transition">
+                      <span key={skill} className="bg-green-200 text-green-800 text-sm md:text-lg font-medium px-2 py-1 lg:py-0 rounded-full hover:bg-amber-300 transition">
                         {skill}
                       </span>
                     ))}
@@ -151,10 +151,10 @@ export default function Projects() {
               {/* External link to project*/} 
              <div className='bg-amber-200 p-4 mt-5 rounded-2xl md:col-span-1 lg:col-span-2 lg:row-start-3 lg:col-start-5 lg:self-start'>
               
-              <h2 className='font-bold flex text-xl justify-start ml-2 mt-2'>Project Links</h2>
+              <h2 className='font-bold flex text-xl justify-start md:text-2xl ml-2 mt-2'>Project Links</h2>
               <div className="mt-5 mb-5 md:flex md:items-start">
                 <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex gap-2 items-center md:justify-center border-[2px] md:w-full md:ml-5 md:mr-5 md:mt-2 border-green-600 text-green-600 px-10 py-3 rounded-md hover:bg-green-600 hover:border-white hover:text-white transition text-md lg:text-lg font-medium"> 
-                  <ExternalLink className="w-5 h-5"/> 
+                  <ExternalLink className="w-5 h-5 md:h-6 md:w-6"/> 
                     <span>Live Demo</span>
                 </a>
               </div>

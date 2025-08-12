@@ -23,7 +23,7 @@ export default function Experience() {
       {/* Main container */}
       <div id='experience' className=" py-20 px-6 bg-green-300 text-center sm:col-span-2 overflow-x-hidden">
         <div className='flex flex-start'>
-          <Link to="/#about" className="inline-block text-blue-700 mt-5 hover:text-amber-600 transition sm:text-2xl">
+          <Link to="/#about" className="inline-block text-blue-700 mt-5 hover:text-amber-600 transition sm:text-xl">
           ← Back to about
           </Link>
         </div>
@@ -218,14 +218,14 @@ export default function Experience() {
 
                 </div>
 
-                <p>Professional certification in photogrammetric mapping and remote sensing</p>
+                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
 
               </div>
 
               {/* View Button */}
               <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
               onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5"/>View
+                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
 
             </div>
@@ -245,7 +245,7 @@ export default function Experience() {
                   <img
                     src="/UAVs In Precision Agriculture Certificate_page-0001.jpg"
                     alt="Certificate"
-                    className="rounded-lg max-h-[80vh]  w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl object-contain"
+                    className="rounded-lg max-h-[80vh] w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl object-contain"
                   />
                 </div>
 
@@ -275,14 +275,14 @@ export default function Experience() {
 
                 </div>
 
-                <p>Professional certification in photogrammetric mapping and remote sensing</p>
+                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
 
               </div>
 
               {/* View Button */}
               <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
               onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5"/>View
+                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
 
             </div>
@@ -332,14 +332,14 @@ export default function Experience() {
 
                 </div>
 
-                <p>Professional certification in photogrammetric mapping and remote sensing</p>
+                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
 
               </div>
 
               {/* View Button */}
               <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
               onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5"/>View
+                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
 
             </div>
@@ -389,14 +389,14 @@ export default function Experience() {
 
                 </div>
 
-                <p>Professional certification in photogrammetric mapping and remote sensing</p>
+                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
 
               </div>
 
               {/* View Button */}
               <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
               onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5"/>View
+                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
 
             </div>
@@ -445,14 +445,14 @@ export default function Experience() {
 
                 </div>
 
-                <p>Professional certification in photogrammetric mapping and remote sensing</p>
+                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
 
               </div>
 
               {/* View Button */}
               <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
               onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5"/>View
+                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
 
             </div>
@@ -501,14 +501,14 @@ export default function Experience() {
 
                 </div>
 
-                <p>Professional certification in photogrammetric mapping and remote sensing</p>
+                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
 
               </div>
 
               {/* View Button */}
               <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
               onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5"/>View
+                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
 
             </div>
@@ -558,14 +558,14 @@ export default function Experience() {
 
                 </div>
 
-                <p>Professional certification in photogrammetric mapping and remote sensing</p>
+                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
 
               </div>
 
               {/* View Button */}
               <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
               onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5"/>View
+                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
 
             </div>

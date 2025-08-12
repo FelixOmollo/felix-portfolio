@@ -72,10 +72,10 @@ export default function Contact() {
           <div className="pt-4 pb-5 md:pb-8">
             
             <div className="flex space-x-10 justify-center pb-2 mr-8">
-              <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-white text-xl sm:text-2xl md:text-4xl">
+              <a href="https://twitter.com/f_omolloh" target="_blank" rel="noopener noreferrer" className="hover:text-white text-xl sm:text-2xl md:text-4xl">
                   <FaXTwitter />
               </a>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-white text-xl sm:text-2xl md:text-4xl">
+              <a href="https://github.com/FelixOmollo" target="_blank" rel="noopener noreferrer" className="hover:text-white text-xl sm:text-2xl md:text-4xl">
               <FaGithub />
               </a>
             </div>
