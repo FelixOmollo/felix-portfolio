@@ -31,7 +31,7 @@ export default function Experience() {
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-6 gap-4">
 
           {/* Education div */}
-          <h1 className="font-bold text-3xl sm:text-4xl text-center mt-5 mb-5 sm:mt-10 sm:mb-10 lg:mx-auto lg:col-span-6">Education</h1>
+          <h1 className="font-bold text-3xl sm:text-4xl text-center mt-5 mb-5 sm:mt-10 sm:mb-10 lg:text-4xl lg:mx-auto lg:col-span-6">Education</h1>
 
           <div className='bg-white text-left p-6 rounded-2xl shadow-md sm:ml-4 sm:mr-4 sm:shadow-xl lg:col-span-full'>
 
@@ -77,7 +77,7 @@ export default function Experience() {
           </div>
 
           {/* Work experience div */}
-          <h1 className="font-bold text-3xl sm:text-4xl text-center mt-5 mb-2 sm:mt-10 md:mt-20 lg:mx-auto lg:col-span-full">Work experience</h1>
+          <h1 className="font-bold text-3xl sm:text-4xl text-center mt-5 mb-2 sm:mt-10 md:mt-20 lg:mx-auto lg:text-4xl lg:col-span-full">Work experience</h1>
           <div className='relative grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:col-span-full gap-8'>
 
             {/* Timeline line */}

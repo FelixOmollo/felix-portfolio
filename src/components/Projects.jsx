@@ -22,13 +22,13 @@ const featuredSkill_p4 = [
 export default function Projects() {
   return (
     <div id="projects" className="py-20 px-6 bg-green-300 text-center overflow-x-hidden">
-      <h1 className="font-bold text-3xl text-center mb-10">Portfolio</h1>
+      <h1 className="font-bold text-3xl lg:text-4xl text-center mb-10">Portfolio</h1>
       
       {/* Container */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-10">
 
           {/* Project 1 */}
-          <div className="bg-amber-800 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
+          <div className="bg-amber-800 grid lg:ml-5 sm:col-span-2 lg:col-span-3 rounded-2xl">
 
                 {/* Image div */}
                 <div className="flex justify-center">
@@ -62,7 +62,7 @@ export default function Projects() {
                   <Link to="/details" className="inline-block bg-blue-700 text-white py-2 md:text-lg lg:text-lg font-medium rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
                   </Link>
                   {/* External link to project */}
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-white text-green-800 p-2 rounded-md hover:bg-green-100 transition"> 
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition"> 
                     <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 </div>
@@ -71,7 +71,7 @@ export default function Projects() {
 
 
           {/* Project 2 */}
-          <div className="bg-amber-600 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
+          <div className="bg-amber-600 grid lg:mr-5 sm:col-span-2 lg:col-span-3 rounded-2xl">
 
                 {/* Image div */}
                 <div className="flex justify-center ">
@@ -98,10 +98,10 @@ export default function Projects() {
 
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-2xl lg:text-lg font-medium py-2 rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
+                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
                   </Link>
                   {/* External link to project */}
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-white text-green-800 p-2 rounded-md hover:bg-green-100 transition"> 
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition"> 
                     <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 </div>
@@ -110,7 +110,7 @@ export default function Projects() {
 
 
           {/* Project 3 */}
-          <div className="bg-amber-400 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
+          <div className="bg-amber-400 lg:ml-5 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
                 {/* Image div */}
                 <div className="flex justify-center ">
                   <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
@@ -134,7 +134,7 @@ export default function Projects() {
                   <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg py-2 lg:text-lg font-medium rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
                   </Link>
                   {/* External link to project */}
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-white text-green-800 p-2 rounded-md hover:bg-green-100 transition"> 
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition"> 
                     <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 </div>
@@ -142,7 +142,7 @@ export default function Projects() {
 
 
           {/* Project 4 */}
-          <div className="bg-amber-200 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
+          <div className="bg-amber-200 lg:mr-5 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
                 {/* Image div */}
                 <div className="flex justify-center ">
                   <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
@@ -166,7 +166,7 @@ export default function Projects() {
                   <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-full w-40 shadow hover:bg-amber-600 transition">View Details
                   </Link>
                   {/* External link to project */}
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-white text-green-800 p-2 rounded-md hover:bg-green-100 transition"> 
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition"> 
                     <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 </div>
