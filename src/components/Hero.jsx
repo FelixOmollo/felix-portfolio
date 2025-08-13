@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="flex flex-col items-center lg:items-start sm:items-center space-y-2 sm:space-y-4">
           <p className="text-white text-base sm:text-lg md:text-2xl lg:text-xl">Hello, I'm</p>
           <h1 className="text-4xl font-extrabold text-blue-900 sm:text-6xl md:text-7xl lg:text-8xl">Felix Omollo</h1>
-          <p className="text-white text-sm sm:text-base m-2 md:text-2xl lg:text-xl">A Geospatial Analyst | GIS Developer | Remote Sensing Specialist</p>
+          <p className="text-white text-md sm:text-base m-2 md:text-2xl lg:text-xl">A Geospatial Analyst | GIS Developer | Remote Sensing Specialist</p>
         </div>
                                 {/* Buttons */}
         <div className="flex flex-col sm:flex-row items-center sm:justify-center sm:items-center gap-4 md:gap-20 md:mt-15 lg:gap-15 lg:mt-6 mt-6">
