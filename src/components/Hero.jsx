@@ -7,7 +7,7 @@ export default function Hero() {
       <div className=" relative z-1 px-4 sm:ml-5 sm:px-0 lg:ml-20 sm:space-y-6 text-center">
                                 {/* Text content on top */}
         <div className="flex flex-col items-center lg:items-start sm:items-center space-y-2 sm:space-y-4">
-          <p className="text-white text-base sm:text-lg md:text-2xl lg:text-xl">Hello, I'm</p>
+          <p className="text-white text-md sm:text-lg md:text-2xl lg:text-xl">Hello, I'm</p>
           <h1 className="text-4xl font-extrabold text-blue-900 sm:text-6xl md:text-7xl lg:text-8xl">Felix Omollo</h1>
           <p className="text-white text-md sm:text-base m-2 md:text-2xl lg:text-xl">A Geospatial Analyst | GIS Developer | Remote Sensing Specialist</p>
         </div>
