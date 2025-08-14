@@ -21,7 +21,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Nav Links */}
-        <div className="hidden md:flex md:text-lg lg:text-xl gap-6 lg:mr-10 lg:gap-10 text-white">
+        <div className="hidden md:flex md:text-xl lg:text-xl gap-6 lg:mr-10 lg:gap-10 text-white">
           {["home", "about", "projects", "contact"].map((item) => (
             <Link
               key={item}
