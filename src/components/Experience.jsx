@@ -192,7 +192,7 @@ export default function Experience() {
           </div>
 
           {/* Certificates div */}
-          <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:col-span-full gap-8'>
+          <div id="certificates" className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:col-span-full gap-8'>
             <h1 className="font-bold text-3xl text-center mt-10 lg:mt-20 mb-2 lg:mb-10 col-span-full">Certificates</h1>
 
                                       {/* Certificate 1 */}

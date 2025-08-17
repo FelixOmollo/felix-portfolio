@@ -22,7 +22,7 @@ const featuredSkill_p4 = [
 export default function Projects() {
   return (
     <div id="projects" className="py-20 px-6 bg-green-300 text-center overflow-x-hidden">
-      <h1 className="font-bold text-3xl lg:text-4xl text-center mb-10">Portfolio</h1>
+      <h1 className="font-bold text-3xl md:text-4xl lg:text-4xl text-center mb-10">Portfolio</h1>
       
       {/* Container */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-10">
