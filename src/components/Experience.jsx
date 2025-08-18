@@ -223,7 +223,8 @@ export default function Experience() {
               </div>
 
               {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
+              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm
+              transition-transform duration-500 active:scale-115" 
               onClick={() => setIsModalOpen(true)}>
                 <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
@@ -280,7 +281,8 @@ export default function Experience() {
               </div>
 
               {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
+              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
+              transition-transform duration-500 active:scale-115" 
               onClick={() => setIsModalOpen(true)}>
                 <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
@@ -337,7 +339,8 @@ export default function Experience() {
               </div>
 
               {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
+              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
+              transition-transform duration-500 active:scale-115" 
               onClick={() => setIsModalOpen(true)}>
                 <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
@@ -394,7 +397,8 @@ export default function Experience() {
               </div>
 
               {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
+              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
+              transition-transform duration-500 active:scale-115" 
               onClick={() => setIsModalOpen(true)}>
                 <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
@@ -450,7 +454,8 @@ export default function Experience() {
               </div>
 
               {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
+              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
+              transition-transform duration-500 active:scale-115" 
               onClick={() => setIsModalOpen(true)}>
                 <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
@@ -506,7 +511,8 @@ export default function Experience() {
               </div>
 
               {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
+              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
+              transition-transform duration-500 active:scale-115" 
               onClick={() => setIsModalOpen(true)}>
                 <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>
@@ -563,7 +569,8 @@ export default function Experience() {
               </div>
 
               {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm transition-colors duration-200" 
+              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
+              transition-transform duration-500 active:scale-115" 
               onClick={() => setIsModalOpen(true)}>
                 <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
               </button>

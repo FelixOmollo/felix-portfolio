@@ -24,7 +24,7 @@ export default function About() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-4">
 
         {/* Pic */}
-        <div className="bg-gren-400 sm:col-span-1 lg:col-span-3 lg:col-start-1 rounded-2xl place-items-center sm:self-start gap-5 py-4 sm:row-start-1 sm:col-start-1" >
+        <div className="bg-green-400 sm:col-span-1 lg:col-span-3 lg:col-start-1 rounded-2xl place-items-center sm:self-start gap-5 py-4 sm:row-start-1 sm:col-start-1" >
 
           <img className="h-40 w-40 object-cover rounded-full border-4 border-white" src={ProfilePic} alt="Profile Photo"/>
           <div className="font-bold mt-10 sm:mt-7 md:text-lg lg:text-lg">你好！(Nǐ hǎo!) 👋</div>
@@ -32,7 +32,7 @@ export default function About() {
         </div>
 
         {/* About me */}
-        <div className="bg-ambr-500 text-black-300 rounded-2xl sm:col-span-1 md:col-span-1 lg:col-span-3 sm:mt-0 sm:col-start-2 lg:col-start-1 sm:row-start-1 lg:row-start-2 sm:self-start">
+        <div className="bg-amber-500 text-black-300 rounded-2xl sm:col-span-1 md:col-span-1 lg:col-span-3 sm:mt-0 sm:col-start-2 lg:col-start-1 sm:row-start-1 lg:row-start-2 sm:self-start">
 
            <h1 className="text-xl md:text-2xl text-left ml-2 font-bold md:mt-5 lg:mt-7 lg:text-2xl lg:ml-8">Meet Felix</h1>
            <div className='text-left text-sm sm:text-base md:text-lg lg:text-lg lg:mt-5 p-2 lg:pl-8 lg:pr-6'>
@@ -43,13 +43,13 @@ export default function About() {
             </p>
             <p className="mt-2">Take a peek into my background and experience below.</p>
            </div>
-            <Link to="/experience" className="mb-5 md:mb-6 lg:mb-7 inline-block bg-blue-700 text-white px-5 py-3 rounded-t-4xl md:text-lg lg:text-lg rounded-b-2xl shadow hover:bg-blue-800 transition mt-7">Explore My Background
+            <Link to="/experience" className="mb-5 md:mb-6 lg:mb-7 inline-block bg-blue-700 text-white px-5 py-3 rounded-t-4xl md:text-lg lg:text-lg rounded-b-2xl shadow hover:bg-blue-800 mt-7 transition-transform duration-500 focus:scale-115">Explore My Background
             </Link>
 
         </div>
 
         {/* Technical skills */}
-        <div className="bg-ambr-700 text-black rounded-2xl sm:col-span-2 lg:col-start-4 lg:row-start-2 lg:col-span-3 md:mt-2 lg:mt-0 lg:self-start">
+        <div className="bg-amber-700 text-black rounded-2xl sm:col-span-2 lg:col-start-4 lg:row-start-2 lg:col-span-3 md:mt-2 lg:mt-0 lg:self-start">
 
                 <h1 className="text-xl md:text-2xl lg:text-2xl font-bold mb-4 md:mb-8 lg:pt-2 text-left lg:ml-4">Technical Skills</h1>
                 <div className="flex flex-wrap justify-center items-center gap-2 md:gap-3 md:mb-8">
@@ -63,7 +63,7 @@ export default function About() {
         </div>
 
         {/* Areas of Interest */}
-        <div className="bg-gry-300 rounded-2xl sm:col-span-1 lg:col-span-3 mt-4 sm:mt-63 md:mt-67 lg:mt-10 sm:self-start sm:row-start-1 lg:row-start-1 sm:col-start-1 lg:col-start-4">
+        <div className="bg-gray-300 rounded-2xl sm:col-span-1 lg:col-span-3 mt-4 sm:mt-63 md:mt-67 lg:mt-10 sm:self-start sm:row-start-1 lg:row-start-1 sm:col-start-1 lg:col-start-4">
 
           <h1 className="text-xl md:text-2xl lg:text-2xl font-bold lg:mt-7 mb-4 text-left lg:ml-4">Areas Of Interest</h1>
 
