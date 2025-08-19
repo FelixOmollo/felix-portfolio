@@ -13,8 +13,8 @@ export default function Hero() {
         </div>
                                 {/* Buttons */}
         <div className="flex flex-col sm:flex-row items-center sm:justify-center sm:items-center gap-4 md:gap-20 md:mt-15 lg:gap-15 lg:mt-6 mt-6">
-            <a href="public\Felix_Odhiambo_GIS_CV.pdf" download className="bg-blue-700 text-white lg:text-xl md:text-xl px-6 md:px-7 py-3 rounded-b-4xl rounded-t-2xl shadow hover:bg-blue-800 transition-transform duration-500 focus:scale-115">Download CV</a>
-            <a href="#projects" className="mt-6 inline-block bg-blue-700 text-white lg:text-xl px-6 py-3 md:text-xl md:px-7 rounded-t-4xl rounded-b-2xl shadow hover:bg-blue-800 transition-transform duration-500 focus:scale-115">Geospatial Portfolio</a>
+            <a href="public\Felix_Odhiambo_GIS_CV.pdf" download className="bg-blue-700 text-white lg:text-xl md:text-xl px-6 md:px-7 py-3 rounded-b-4xl rounded-t-2xl shadow hover:bg-blue-800 transition-transform duration-500 active:scale-115">Download CV</a>
+            <a href="#projects" className="mt-6 inline-block bg-blue-700 text-white lg:text-xl px-6 py-3 md:text-xl md:px-7 rounded-t-4xl rounded-b-2xl shadow hover:bg-blue-800 transition-transform duration-500 active:scale-115">Geospatial Portfolio</a>
         </div>
                                 {/* Scroll down */}
         <div className=" absolute text-sm rotate-0 md:text-lg text-gray-400 animate-pulse mt-30 md:mt-60 sm:mt-22 lg:mt-25">Scroll down ↓</div>
