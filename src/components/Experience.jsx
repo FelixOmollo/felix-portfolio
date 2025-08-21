@@ -21,42 +21,49 @@ const certificates = [
     institution: "Geoversity",
     year: "2025",
     img: "/uavs-in-precision-agriculture-certificate.jpg",
+    description: "Training in building geospatial web apps using open-source modern mapping technologies."
   },
   {
     title: "UAVs In Precision Agriculture",
     institution: "Geoversity",
     year: "2024",
     img: "/uavs-in-precision-agriculture-certificate.jpg",
+    description: "Specialized course on using drones for crop monitoring, mapping, and precision farming."
   },
   {
     title: "Transform AEC Projects with GIS & BIM",
     institution: "Esri",
     year: "2024",
-    img: "/transform-AEC-projects-with-GIS-and-BIM.jpg"
+    img: "/transform-AEC-projects-with-GIS-and-BIM.jpg",
+    description: "Course on combining GIS and BIM to improve design, construction, and infrastructure management."
   },
   {
     title: "ArcGIS Python Scripting",
     institution: "LinkedIn Learning",
     year: "2024",
-    img: "/arcgis-python-scripting.jpg"
+    img: "/arcgis-python-scripting.jpg",
+    description: "Hands-on learning in automating geoprocessing tasks and workflows with Python on ArcGIS."
   },
   {
     title: "Git and Github",
     institution: "Codecademy",
     year: "2024",
-    img: "/git-and-github-certificate.jpg"
+    img: "/git-and-github-certificate.jpg",
+    description: "Practical course on version control, branching, and collaborative development workflows."
   },
   {
     title: "React",
     institution: "Coursera",
     year: "2023",
-    img: "/react-basis-certificate.jpg"
+    img: "/react-basis-certificate.jpg",
+    description: "Introductory course in building modern, interactive UIs with React components and state management."
   },
    {
     title: "Cartography",
     institution: "Esri",
     year: "2023",
-    img: "/cartography-certificate.jpg"
+    img: "/cartography-certificate.jpg",
+    description: "Training in map design principles, symbology, and effective visual communication with GIS tools."
   },
 
 ]
@@ -261,7 +268,7 @@ export default function Experience() {
                 </div>
 
                 <div>
-                  <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
+                  <p className='md:text-lg'>{cert.description}</p>
                 </div>
 
                 <button onClick={() => setOpenModalIndex(index)} className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
