@@ -14,9 +14,58 @@ import 'swiper/css/pagination';
 
 
 
+// Certificates array
+const certificates = [
+   {
+    title: "Geo Web App building with OS tools",
+    institution: "Geoversity",
+    year: "2025",
+    img: "/uavs-in-precision-agriculture-certificate.jpg",
+  },
+  {
+    title: "UAVs In Precision Agriculture",
+    institution: "Geoversity",
+    year: "2024",
+    img: "/uavs-in-precision-agriculture-certificate.jpg",
+  },
+  {
+    title: "Transform AEC Projects with GIS & BIM",
+    institution: "Esri",
+    year: "2024",
+    img: "/transform-AEC-projects-with-GIS-and-BIM.jpg"
+  },
+  {
+    title: "ArcGIS Python Scripting",
+    institution: "LinkedIn Learning",
+    year: "2024",
+    img: "/arcgis-python-scripting.jpg"
+  },
+  {
+    title: "Git and Github",
+    institution: "Codecademy",
+    year: "2024",
+    img: "/git-and-github-certificate.jpg"
+  },
+  {
+    title: "React",
+    institution: "Coursera",
+    year: "2023",
+    img: "/react-basis-certificate.jpg"
+  },
+   {
+    title: "Cartography",
+    institution: "Esri",
+    year: "2023",
+    img: "/cartography-certificate.jpg"
+  },
+
+]
+
+
+
 
 export default function Experience() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [openModalIndex, setOpenModalIndex] = useState(null);
 
   return (
     <Layout>
@@ -196,407 +245,42 @@ export default function Experience() {
             <h1 className="font-bold text-3xl text-center mt-10 lg:mt-20 mb-2 lg:mb-10 col-span-full">Certificates</h1>
 
                                       {/* Certificate 1 */}
-            {/* Card 1 content container */}
-            <div className='bg-white text-left p-6 rounded-2xl shadow-md'>
+              {certificates.map((cert, index) => (
+              <div key={index} className="bg-white text-left p-6 rounded-2xl shadow-md">
 
-              {/* Card content div */}
-              <div className='text-left'>
-
-                <h2 className='font-bold text-2xl mb-1 flex items-center gap-2'>
-                  <Award className="w-8 h-8 text-green-800"/>UAVs In Precision Agriculture
+                <h2 className="font-bold text-2xl mb-1 flex items-center gap-2">
+                  <Award className="w-8 h-8 text-green-800"/>{cert.title}
                 </h2>
 
-                {/* Institution and date div */}
-                <div className='flex justify-between items-center mt-4 mb-2'>
-
-                  <h3 className='font-semibold text-xl text-emerald-700'>Geoversity</h3>
-
-                  <div className='flex justify-between gap-2'>
+                <div className="flex justify-between items-center mt-4 mb-2">
+                  <h3 className="font-semibold text-xl text-emerald-700">{cert.institution}</h3>
+                  <div className="flex justify-between gap-2">
                     <Calendar className="w-4 h-4 mt-1"/>
-                    <span className="text-gray-700">2024</span>
+                    <span className="text-gray-700">{cert.year}</span>
                   </div>
-
                 </div>
 
-                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
-
-              </div>
-
-              {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm
-              transition-transform duration-500 active:scale-115" 
-              onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
-              </button>
-
-            </div>
-
-            {/* Modal */}
-              {isModalOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
-
-                <div className="bg-white rounded-2xl p-4 max-w-3xl shadow-xl relative">
-                  {/* Close Button */}
-                  <button
-                    className="absolute top-2 right-2 text-gray-700 hover:text-black text-lg"
-                    onClick={() => setIsModalOpen(false)}>
-                    ✕
-                  </button>
-                    {/* Certificate image */}
-                  <img
-                    src="/uavs-in-precision-agriculture-certificate.jpg"
-                    alt="Certificate"
-                    className="rounded-lg max-h-[80vh] w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl object-contain"
-                  />
+                <div>
+                  <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
                 </div>
 
-              </div>)}
+                <button onClick={() => setOpenModalIndex(index)} className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
+              transition-transform duration-500 active:scale-115">
+                  <Eye className="w-5 h-5 md:h-6 md:w-6"/> View
+                </button>
 
-
-                                      {/* Certificate 2 */}
-            {/* Card 1 content container */}
-            <div className='bg-white text-left p-6 rounded-2xl shadow-md'>
-
-              {/* Card content div */}
-              <div className='text-left'>
-
-                <h2 className='font-bold text-2xl mb-1 flex items-center gap-2'>
-                  <Award className="w-8 h-8 text-green-800"/>Cartography
-                </h2>
-
-                {/* Institution and date div */}
-                <div className='flex justify-between items-center mt-4 mb-2'>
-
-                  <h3 className='font-semibold text-xl text-emerald-700'>Esri</h3>
-
-                  <div className='flex justify-between gap-2'>
-                    <Calendar className="w-4 h-4 mt-1"/>
-                    <span className="text-gray-700">2024</span>
+                {openModalIndex === index && (
+                  <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
+                    <div className="bg-white rounded-2xl p-4 max-w-3xl shadow-xl relative">
+                      <button className="absolute top-2 right-2 text-gray-700 hover:text-black" 
+                        onClick={() => setOpenModalIndex(null)}>✕</button>
+                      <img src={cert.img} alt={cert.title} className="rounded-lg max-h-[80vh] w-full object-contain"/>
+                    </div>
                   </div>
-
-                </div>
-
-                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
-
+                )}
               </div>
+            ))}
 
-              {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
-              transition-transform duration-500 active:scale-115" 
-              onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
-              </button>
-
-            </div>
-
-            {/* Modal */}
-              {isModalOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
-
-                <div className="bg-white rounded-2xl p-4 max-w-3xl shadow-xl relative">
-                  {/* Close Button */}
-                  <button
-                    className="absolute top-2 right-2 text-gray-700 hover:text-black text-lg"
-                    onClick={() => setIsModalOpen(false)}>
-                    ✕
-                  </button>
-                    {/* Certificate image */}
-                  <img
-                    src="/cartography-certificate.jpg"
-                    alt="Certificate"
-                    className="rounded-lg max-h-[80vh]  w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl object-contain"
-                  />
-                </div>
-
-              </div>)}
-
-
-                                      {/* Certificate 3 */}
-            {/* Card 1 content container */}
-            <div className='bg-white text-left p-6 rounded-2xl shadow-md'>
-
-              {/* Card content div */}
-              <div className='text-left'>
-
-                <h2 className='font-bold text-2xl mb-1 flex items-center gap-2'>
-                  <Award className="w-8 h-8 text-green-800"/>Transform AEC Projects with GIS & BIM
-                </h2>
-
-                {/* Institution and date div */}
-                <div className='flex justify-between items-center mt-4 mb-2'>
-
-                  <h3 className='font-semibold text-xl text-emerald-700'>Esri</h3>
-
-                  <div className='flex justify-between gap-2'>
-                    <Calendar className="w-4 h-4 mt-1"/>
-                    <span className="text-gray-700">2024</span>
-                  </div>
-
-                </div>
-
-                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
-
-              </div>
-
-              {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
-              transition-transform duration-500 active:scale-115" 
-              onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
-              </button>
-
-            </div>
-
-            {/* Modal */}
-              {isModalOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
-
-                <div className="bg-white rounded-2xl p-4 max-w-3xl shadow-xl relative">
-                  {/* Close Button */}
-                  <button
-                    className="absolute top-2 right-2 text-gray-700 hover:text-black text-lg"
-                    onClick={() => setIsModalOpen(false)}>
-                    ✕
-                  </button>
-                    {/* Certificate image */}
-                  <img
-                    src="/UAVs In Precision Agriculture Certificate_page-0001.jpg"
-                    alt="Certificate"
-                    className="rounded-lg max-h-[80vh]  w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl object-contain"
-                  />
-                </div>
-
-              </div>)}
-
-
-                                      {/* Certificate 4 */}
-            {/* Card 1 content container */}
-            <div className='bg-white text-left p-6 rounded-2xl shadow-md'>
-
-              {/* Card content div */}
-              <div className='text-left'>
-
-                <h2 className='font-bold text-2xl mb-1 flex items-center gap-2'>
-                  <Award className="w-8 h-8 text-green-800"/>ArcGIS Python Scripting
-                </h2>
-
-                {/* Institution and date div */}
-                <div className='flex justify-between items-center mt-4 mb-2'>
-
-                  <h3 className='font-semibold text-xl text-emerald-700'>LinkedIn Learning</h3>
-
-                  <div className='flex justify-between gap-2'>
-                    <Calendar className="w-4 h-4 mt-1"/>
-                    <span className="text-gray-700">2024</span>
-                  </div>
-
-                </div>
-
-                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
-
-              </div>
-
-              {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
-              transition-transform duration-500 active:scale-115" 
-              onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
-              </button>
-
-            </div>
-
-            {/* Modal */}
-              {isModalOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
-
-                <div className="bg-white rounded-2xl p-4 max-w-3xl shadow-xl relative">
-                  {/* Close Button */}
-                  <button
-                    className="absolute top-2 right-2 text-gray-700 hover:text-black text-lg"
-                    onClick={() => setIsModalOpen(false)}>
-                    ✕
-                  </button>
-                    {/* Certificate image */}
-                  <img
-                    src="/transform-AEC-projects-with-GIS-and-BIM.jpg"
-                    alt="Certificate"
-                    className="rounded-lg max-h-[80vh]  w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl object-contain"
-                  />
-                </div>
-
-              </div>)}
-
-                                      {/* Certificate 5 */}
-            {/* Card 1 content container */}
-            <div className='bg-white text-left p-6 rounded-2xl shadow-md'>
-
-              {/* Card content div */}
-              <div className='text-left'>
-
-                <h2 className='font-bold text-2xl mb-1 flex items-center gap-2'>
-                  <Award className="w-8 h-8 text-green-800"/>Git and Github
-                </h2>
-
-                {/* Institution and date div */}
-                <div className='flex justify-between items-center mt-4 mb-2'>
-
-                  <h3 className='font-semibold text-xl text-emerald-700'>Codecademy</h3>
-
-                  <div className='flex justify-between gap-2'>
-                    <Calendar className="w-4 h-4 mt-1"/>
-                    <span className="text-gray-700">2024</span>
-                  </div>
-
-                </div>
-
-                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
-
-              </div>
-
-              {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
-              transition-transform duration-500 active:scale-115" 
-              onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
-              </button>
-
-            </div>
-
-            {/* Modal */}
-              {isModalOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
-
-                <div className="bg-white rounded-2xl p-4 max-w-3xl shadow-xl relative">
-                  {/* Close Button */}
-                  <button
-                    className="absolute top-2 right-2 text-gray-700 hover:text-black text-lg"
-                    onClick={() => setIsModalOpen(false)}>
-                    ✕
-                  </button>
-                    {/* Certificate image */}
-                  <img
-                    src="/arcgis-python-scripting.jpg"
-                    alt="Certificate"
-                    className="rounded-lg max-h-[80vh]  w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl object-contain"
-                  />
-                </div>
-
-              </div>)}
-
-                                      {/* Certificate 6 */}
-            {/* Card 1 content container */}
-            <div className='bg-white text-left p-6 rounded-2xl shadow-md'>
-
-              {/* Card content div */}
-              <div className='text-left'>
-
-                <h2 className='font-bold text-2xl mb-1 flex items-center gap-2'>
-                  <Award className="w-8 h-8 text-green-800"/>React
-                </h2>
-
-                {/* Institution and date div */}
-                <div className='flex justify-between items-center mt-4 mb-2'>
-
-                  <h3 className='font-semibold text-xl text-emerald-700'>Coursera</h3>
-
-                  <div className='flex justify-between gap-2'>
-                    <Calendar className="w-4 h-4 mt-1"/>
-                    <span className="text-gray-700">2024</span>
-                  </div>
-
-                </div>
-
-                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
-
-              </div>
-
-              {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
-              transition-transform duration-500 active:scale-115" 
-              onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
-              </button>
-
-            </div>
-
-            {/* Modal */}
-              {isModalOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
-
-                <div className="bg-white rounded-2xl p-4 max-w-3xl shadow-xl relative">
-                  {/* Close Button */}
-                  <button
-                    className="absolute top-2 right-2 text-gray-700 hover:text-black text-lg"
-                    onClick={() => setIsModalOpen(false)}>
-                    ✕
-                  </button>
-                    {/* Certificate image */}
-                  <img
-                    src="/git-github-certificate.jpg"
-                    alt="Certificate"
-                    className="rounded-lg max-h-[80vh]  w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl object-contain"
-                  />
-                </div>
-
-              </div>)}
-
-
-                                      {/* Certificate 7 */}
-            {/* Card 1 content container */}
-            <div className='bg-white text-left p-6 rounded-2xl shadow-md'>
-
-              {/* Card content div */}
-              <div className='text-left'>
-
-                <h2 className='font-bold text-2xl mb-1 flex items-center gap-2'>
-                  <Award className="w-8 h-8 text-green-800"/>Geo Web App building with OS tools
-                </h2>
-
-                {/* Institution and date div */}
-                <div className='flex justify-between items-center mt-4 mb-2'>
-
-                  <h3 className='font-semibold text-xl text-emerald-700'>Geoversity</h3>
-
-                  <div className='flex justify-between gap-2'>
-                    <Calendar className="w-4 h-4 mt-1"/>
-                    <span className="text-gray-700">2024</span>
-                  </div>
-
-                </div>
-
-                <p className='md:text-lg'>Professional certification in photogrammetric mapping and remote sensing</p>
-
-              </div>
-
-              {/* View Button */}
-              <button  className="inline-flex items-center gap-2 bg-green-700 text-white font-semibold px-5 py-3 rounded-2xl mt-4 mb-1 hover:bg-amber-600 active:bg-amber-700 text-sm 
-              transition-transform duration-500 active:scale-115" 
-              onClick={() => setIsModalOpen(true)}>
-                <Eye className="w-5 h-5 md:h-6 md:w-6"/>View
-              </button>
-
-            </div>
-
-            {/* Modal */}
-              {isModalOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
-
-                <div className="bg-white rounded-2xl p-4 max-w-3xl shadow-xl relative">
-                  {/* Close Button */}
-                  <button
-                    className="absolute top-2 right-2 text-gray-700 hover:text-black text-lg"
-                    onClick={() => setIsModalOpen(false)}>
-                    ✕
-                  </button>
-                    {/* Certificate image */}
-                  <img
-                    src="/Essential-Mandarin.jpg"
-                    alt="Certificate"
-                    className="rounded-lg max-h-[80vh]  w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl object-contain"
-                  />
-                </div>
-
-              </div>)}
 
           </div>
           
