@@ -120,8 +120,7 @@ export default function Experience() {
                   {['Remote Sensing', 'Spatial Analysis', 'GIS Development', 'Data Visualisation'].map((specialty, index) => (
                     <SwiperSlide
                       key={index}
-                      className="bg-white pt-5 pb-10 rounded-lg shadow text-center text-gray-800 sm:text-xl"
-                    >
+                      className="bg-white pt-5 pb-10 rounded-lg shadow text-center text-gray-800 sm:text-xl">
                       {specialty}
                     </SwiperSlide>
                   ))}

@@ -136,8 +136,8 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="bg-amber-500 hover:bg-amber-600 text-white lg:text-xl font-bold py-2 md:py-3 lg:py-3 px-6 sm:text-lg md:text-xl sm:mb-5 sm:w-3/4 mt-4 mb-2 rounded-b-4xl 
-            rounded-t-2xl transition-transform duration-500 active:scale-115">
+            className="bg-amber-500 hover:bg-blue-600 text-white lg:text-xl font-bold py-2 md:py-3 lg:py-3 px-6 sm:text-lg md:text-xl sm:mb-5 sm:w-3/4 mt-4 mb-2 rounded-b-4xl 
+            rounded-t-2xl transition-transform duration-500 hover:scale-102">
             Send Message
           </button>
 
