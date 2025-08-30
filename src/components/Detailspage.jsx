@@ -153,7 +153,7 @@ export default function Projects() {
               
               <h2 className='font-bold flex text-xl justify-start md:text-2xl ml-2 mt-2'>Project Links</h2>
               <div className="mt-5 mb-5 md:flex md:items-start">
-                <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex gap-2 items-center md:justify-center border-[2px] md:w-full md:ml-5 md:mr-5 md:mt-2 border-green-600 text-green-600 px-10 py-3 rounded-md hover:bg-green-600 hover:border-white hover:text-white text-md lg:text-lg font-medium
+                <a href="/mappage/flood_analysis" rel="noopener noreferrer" className="inline-flex gap-2 items-center md:justify-center border-[2px] md:w-full md:ml-5 md:mr-5 md:mt-2 border-green-600 text-green-600 px-10 py-3 rounded-md hover:bg-green-600 hover:border-white hover:text-white text-md lg:text-lg font-medium
                 transition-transform duration-500 active:scale-115"> 
                   <ExternalLink className="w-5 h-5 md:h-6 md:w-6"/> 
                     <span>Live Demo</span>
