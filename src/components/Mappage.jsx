@@ -2,10 +2,10 @@ import { useParams, Link } from 'react-router-dom';
 
 const mapsData = [
     {
-        id: "project1",
-        title: "Deforestation Monitoring in Kajiado",
-        imaplink: "https://example.com/map1",
-        description: "An interactive map showing forest loss in Kajiado County."
+        id: "flood_analysis",
+        title: "Flood Assessment of Barahle Refugee Camp in Ethiopia",
+        imaplink: "https://felixomollo.github.io/portfolio-maps/flood_analysis/",
+        description: "This is a map showing buildngs that will likely be affected with floods."
     },
     {    
         id: "project2",
@@ -28,14 +28,35 @@ const mapsData = [
 ]
 
 export default function Mappage () {
+
+    const { id } = useParams();                      // Grab the id from the URL
+    const map = mapsData.find((m) => m.id === id);   //Find the correspoinding map address
+
+    if (!map) {
+    return (
+      <div className="p-6">
+        <h2 className="text-red-600 text-2xl font-bold">Map not found</h2>
+        <Link
+          to="/#projects"
+          className="text-lg flex justify-center mt-4 text-blue-500 hover:text-amber-600 transition lg:text-xl"
+        >
+          Back to projects
+        </Link>
+      </div>
+    );
+  }
+    
+
+
     return(
         <div className="p-6">
-            <h2 className='font-extrabold text-4xl'>Barahle Refuge Camp Flood Assessment map</h2>
-            <p className="mt-2 text-xl">This shows the analysis of one of the camps in Ethiopia known to be prone to floods.</p>
+            <h2 className='font-extrabold text-4xl'>{map.title}</h2>
+            <p className="mt-2 text-xl">{map.description}</p>
             <iframe 
-            src=""
-            title=""
-            className="w-full h-[500px] mt-4 border rounded-sm"/>
+            src={map.imaplink}
+            title={map.title}
+            className="w-full h-[500px] mt-4 border rounded-lg"/>
+            <Link to="/#projects" className="text-lg flex justify-center mt-4 text-blue-500  hover:text-amber-600 transition lg:text-xl">Back to projects</Link>
         </div>
     );
 }
