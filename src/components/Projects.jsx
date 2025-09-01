@@ -59,7 +59,7 @@ export default function Projects() {
 
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white py-2 md:text-lg lg:text-lg font-medium rounded-full w-40 shadow hover:bg-amber-600 transition-transform duration-500 focus:scale-115">View Details
+                  <Link to="/details" className="inline-block bg-blue-700 text-white py-2 md:text-lg lg:text-lg font-medium rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 focus:scale-102">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="/mappage/flood_analysis" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
@@ -98,7 +98,7 @@ export default function Projects() {
 
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-full w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
+                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
@@ -131,7 +131,7 @@ export default function Projects() {
                 </div>
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg py-2 lg:text-lg font-medium rounded-full w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
+                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg py-2 lg:text-lg font-medium rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
@@ -156,14 +156,14 @@ export default function Projects() {
                 {/* Featured skills div */}
                 <div className="flex flex-wrap items-center mt-3 ml-5 pr-2 gap-3">
                       {featuredSkill_p1.map(skill => (
-                        <span key={skill} className="bg-green-200 text-green-800 text-sm md:text-lg font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
+                        <span key={skill} className="bg-green-200 text-green-800 text-sm md:text-lg font-medium px-3 py-1 rounded-2xl hover:bg-amber-300 transition">
                           {skill}
                         </span>
                       ))}
                 </div>
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-full w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
+                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
