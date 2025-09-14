@@ -101,7 +101,7 @@ export default function Projects() {
                   <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
                   </Link>
                   {/* External link to project */}
-                  <a href="/mappage/flood_analysis" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
+                  <a href="/mappage/precision_agriculture" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
                     <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 </div>
