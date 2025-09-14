@@ -19,6 +19,7 @@
     "react-pdf": "^10.0.1",
     "react-router-dom": "^7.7.1",
     "react-scroll": "^1.9.3",
+    "react-typed": "^2.0.12",
     "swiper": "^11.2.10"
   },
   "devDependencies": {

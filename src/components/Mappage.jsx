@@ -8,10 +8,10 @@ const mapsData = [
         description: "This is a map showing buildngs that will likely be affected with floods."
     },
     {    
-        id: "project2",
+        id: "precision_agriculture",
         title: "Urban Heat Island in Nairobi",
-        imaplink: "https://example.com/map2",
-        description: "This map visualizes heat intensity across Nairobi."
+        imaplink: "https://felixomollo.github.io/portfolio-maps/precision_agriculture/",
+        description: "This map visualizes ndvi and ndre of a crop field."
     },
     {
         id: "project3",
