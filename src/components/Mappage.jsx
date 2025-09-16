@@ -3,15 +3,15 @@ import { useParams, Link } from 'react-router-dom';
 const mapsData = [
     {
         id: "flood_analysis",
-        title: "Flood Assessment of Barahle Refugee Camp in Ethiopia",
+        title: "Flood assessment of Barahle refugee camp in Ethiopia",
         imaplink: "https://felixomollo.github.io/portfolio-maps/flood_analysis/",
-        description: "This is a map showing buildngs that will likely be affected with floods."
+        description: "This map shows flood-prone areas within a refugee camp in Ethiopia, highlighting buildings and infrastructure at risk. The analysis supports disaster preparedness, risk reduction, and safer planning for vulnerable communities."
     },
     {    
         id: "precision_agriculture",
-        title: "Urban Heat Island in Nairobi",
+        title: "Crop health assessment and analysis using Drone Imagery",
         imaplink: "https://felixomollo.github.io/portfolio-maps/precision_agriculture/",
-        description: "This map visualizes ndvi and ndre of a crop field."
+        description: "This project applies drone imagery to map and visualize crop health, vigor, and key plant metrics, helping farmers optimize irrigation, fertilization, and pest control."
     },
     {
         id: "project3",
