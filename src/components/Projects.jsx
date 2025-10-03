@@ -59,7 +59,7 @@ export default function Projects() {
 
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white py-2 md:text-lg lg:text-lg font-medium rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 focus:scale-102">View Details
+                  <Link to="/projects/urban-analysis" className="inline-block bg-blue-700 text-white py-2 md:text-lg lg:text-lg font-medium rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 focus:scale-102">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="/mappage/flood_analysis" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 

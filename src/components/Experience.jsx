@@ -212,13 +212,13 @@ export default function Experience() {
 
                 <div className='z-0 mt-22 bg-white text-left p-6 rounded-2xl shadow-xl sm:ml-26 md:w-1/2 md:mr-auto md:ml-0'>
                   <h2 className='font-bold text-lg sm:text-2xl mb-1 flex items-center gap-2'>
-                    <Briefcase className="w-5 h-5 sm:w-8 sm:h-8 text-green-800" />Mapping Assistant
+                    <Briefcase className="w-5 h-5 sm:w-8 sm:h-8 text-green-800" />Student Attache
                   </h2>
-                  <h3 className="font-semibold text-md mt-2 mb-2 text-emerald-700 sm:text-xl">Ramani Geosystems Ltd.</h3>
-                  <span className="block text-gray-700 mb-4 sm:text-xl">May 2024 - Sept 2024</span>
+                  <h3 className="font-semibold text-md mt-2 mb-2 text-emerald-700 sm:text-xl">Taita Taveta University</h3>
+                  <span className="block text-gray-700 mb-4 sm:text-xl">May 2022 - Sept 2022</span>
                   {/* <hr className="border-t border-green-700 opacity-30 my-2" /> */}
-                  <p className='sm:text-xl'>Processed and analyzed satellite imagery for agricultural monitoring and land use classification. 
-                    Developed automated workflows for change detection and crop yield prediction.</p>
+                  <p className='sm:text-xl'>Supported geospatial data collection and analysis for academic research. Produced thematic maps and conducted 
+                    field surveys for environmental monitoring and planning.</p>
                 </div>
 
             </div>
