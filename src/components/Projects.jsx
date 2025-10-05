@@ -9,7 +9,7 @@ const featuredSkill_p1 = [
 ];
 
 const featuredSkill_p2 = [
-  "Pix4Dmapper", "QGIS", "Drone Imagery", "Precision Agriculture",
+  "Pix4Dmapper", "Drone Imagery", "Precision Agriculture", "QGIS",
 ];
 
 const featuredSkill_p3 = [
@@ -37,7 +37,7 @@ export default function Projects() {
 
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">
-                  <h2 className="font-bold flex text-xl md:text-2xl md:mb-2">Flood Risk Assessment of Barahle Refugee Camp</h2>
+                  <h2 className="font-bold flex text-xl md:text-2xl md:mb-2">Flood Risk Assessment of a Refugee Camp</h2>
                   <p className="flex py-2 lg:pr-3 md:text-lg lg:text-lg">Geospatial flood analysis highlighting vulnerable areas and structures within the Barahle refugee camp in Ethiopia, supporting humanitarian planning and disaster preparedness.
                   </p>
                 </div>
@@ -83,7 +83,7 @@ export default function Projects() {
 
                 {/* Featured skills div */}
                 <div className="flex flex-wrap items-center mt-3 ml-5 pr-2 gap-3">
-                      {featuredSkill_p1.map(skill => (
+                      {featuredSkill_p2.map(skill => (
                         <span key={skill} className="bg-green-200 text-green-800 text-sm md:text-lg font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
                           {skill}
                         </span>
@@ -117,7 +117,7 @@ export default function Projects() {
                 </div>
                 {/* Featured skills div */}
                 <div className="flex flex-wrap items-center mt-3 ml-5 pr-2 gap-3">
-                      {featuredSkill_p1.map(skill => (
+                      {featuredSkill_p3.map(skill => (
                         <span key={skill} className="bg-green-200 text-green-800 text-sm md:text-lg font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
                           {skill}
                         </span>
@@ -149,7 +149,7 @@ export default function Projects() {
                 </div>
                 {/* Featured skills div */}
                 <div className="flex flex-wrap items-center mt-3 ml-5 pr-2 gap-3">
-                      {featuredSkill_p1.map(skill => (
+                      {featuredSkill_p4.map(skill => (
                         <span key={skill} className="bg-green-200 text-green-800 text-sm md:text-lg font-medium px-3 py-1 rounded-2xl hover:bg-amber-300 transition">
                           {skill}
                         </span>

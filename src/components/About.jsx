@@ -9,8 +9,8 @@ const skills = [
 ];
 
 const interests = [
-  "Environmental Monitoring", "Urban Planning", "Climate Change Analysis",
-  "Disaster Management", "Precision Agriculture", "Transportation Planning"
+  "Environmental Monitoring", "Precision Agriculture", "Climate Change Analysis",
+  "Disaster Management", "Urban Planning", "Transportation Planning"
 ];
 
 
@@ -63,7 +63,7 @@ export default function About() {
         </div>
 
         {/* Areas of Interest */}
-        <div className="bg-gray-300 rounded-2xl sm:col-span-1 lg:col-span-3 mt-4 sm:mt-63 md:mt-67 lg:mt-10 sm:self-start sm:row-start-1 lg:row-start-1 sm:col-start-1 lg:col-start-4">
+        <div className="bg-gray-300 rounded-2xl sm:col-span-1 lg:col-span-3 mt-4 sm:mt-63 md:mt-67 lg:mt-4 sm:self-start sm:row-start-1 lg:row-start-1 sm:col-start-1 lg:col-start-4">
 
           <h1 className="text-xl md:text-2xl lg:text-2xl font-bold lg:mt-7 mb-4 text-left lg:ml-4">Areas Of Interest</h1>
 

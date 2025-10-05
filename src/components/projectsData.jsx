@@ -85,7 +85,7 @@ export const projectsData = [
   {
     id: "lulc-kajiado",
     category: "Environmental Monitoring / Remote Sensing",
-    title: "Land Use Land Cover Classification Using Google Earth Engine Python API",
+    title: "Land Use Land Cover Classification Using Machine Learning",
     image: detailsDummy,
     description:
       "Automated land use and land cover (LULC) classification for Kajiado County, Kenya, using Sentinel-2 data and ESA’s WorldCover dataset for ground truthing, followed by post-processing in ArcGIS Pro and QGIS.",
