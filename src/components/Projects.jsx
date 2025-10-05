@@ -5,15 +5,15 @@ import footerBg2 from '../assets/footerBg2.jpg';
 
 
 const featuredSkill_p1 = [
-  "ArcGIS Pro", "QGIS", "Pix4Dmapper", "Python", "ReactJS"
+  "QGIS", "Spatial Analysis", "Raster Reclassification", "Cartography",
 ];
 
 const featuredSkill_p2 = [
-  "Geoserver", "Google Earth Engine (Python API)", "Spatial Analysis"
+  "Pix4Dmapper", "QGIS", "Drone Imagery", "Precision Agriculture",
 ];
 
 const featuredSkill_p3 = [
-  "Remote Sensing", "Web Mapping", "Cartography", "Javascript"
+  "Python","Machine Learning","GEE", "ArcGIS Pro", "QGIS", "Remote Sensing", "LULC",
 ];
 const featuredSkill_p4 = [
   "PostgreSQL/PostGIS", "Machine Learning", "GeoDjango"
@@ -32,34 +32,28 @@ export default function Projects() {
 
                 {/* Image div */}
                 <div className="flex justify-center">
-
                   <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
-
                 </div>
 
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">
-
-                  <h2 className="font-bold flex text-xl md:text-2xl md:mb-2">Urban Development</h2>
-                  <p className="flex py-2 lg:pr-3 md:text-lg lg:text-lg">Comprehensive spatial analysis for sustainable urban planning, including zoning optimization, demographic analysis, and infrastructure planning.
+                  <h2 className="font-bold flex text-xl md:text-2xl md:mb-2">Flood Risk Assessment of Barahle Refugee Camp</h2>
+                  <p className="flex py-2 lg:pr-3 md:text-lg lg:text-lg">Geospatial flood analysis highlighting vulnerable areas and structures within the Barahle refugee camp in Ethiopia, supporting humanitarian planning and disaster preparedness.
                   </p>
-
                 </div>
 
                 {/* Featured skills div */}
                 <div className="flex flex-wrap items-center mt-3 ml-5 pr-2 gap-3">
-
                       {featuredSkill_p1.map(skill => (
                         <span key={skill} className="bg-green-200 text-green-800 text-sm md:text-lg md:py-0 font-medium px-3 py-1 rounded-full hover:bg-amber-300 transition">
                           {skill}
                         </span>
                       ))}
-
                 </div>
 
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/projects/urban-analysis" className="inline-block bg-blue-700 text-white py-2 md:text-lg lg:text-lg font-medium rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 focus:scale-102">View Details
+                  <Link to="/projects/flood-analysis" className="inline-block bg-blue-700 text-white py-2 md:text-lg lg:text-lg font-medium rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 focus:scale-102">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="/mappage/flood_analysis" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
@@ -82,8 +76,8 @@ export default function Projects() {
 
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">
-                  <h2 className="font-bold flex text-xl md:text-2xl md:mb-2">Urban Development</h2>
-                  <p className="flex py-2 lg:pr-3 md:text-lg lg:text-lg">Comprehensive spatial analysis for sustainable urban planning, including zoning optimization, demographic analysis, and infrastructure planning.
+                  <h2 className="font-bold flex text-xl md:text-2xl md:mb-2">Crop Health Assessment Using Drone Imagery</h2>
+                  <p className="flex py-2 lg:pr-3 md:text-lg lg:text-lg">Drone-based crop monitoring project analyzing vegetation indices to guide irrigation, fertilization, and pest control for precision agriculture.
                   </p>
                 </div>
 
@@ -98,7 +92,7 @@ export default function Projects() {
 
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
+                  <Link to="/projects/precision-agriculture" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="/mappage/precision_agriculture" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
@@ -117,8 +111,8 @@ export default function Projects() {
                 </div>
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">
-                  <h2 className="font-bold flex md:text-2xl text-xl md:mb-2">Urban Development</h2>
-                  <p className="flex py-2 lg:pr-3 md:text-lg lg:text-lg">Comprehensive spatial analysis for sustainable urban planning, including zoning optimization, demographic analysis, and infrastructure planning.
+                  <h2 className="font-bold flex md:text-2xl text-xl md:mb-2">LULC Classification using Machine Learning</h2>
+                  <p className="flex py-2 lg:pr-3 md:text-lg lg:text-lg">Automated LULC mapping using Machine Learning through the Google Earth Engine Python API, supporting environmental monitoring and sustainable development.
                   </p>
                 </div>
                 {/* Featured skills div */}
@@ -131,10 +125,10 @@ export default function Projects() {
                 </div>
                 {/* Button */}
                 <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
-                  <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg py-2 lg:text-lg font-medium rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
+                  <Link to="/projects/lulc-kajiado" className="inline-block bg-blue-700 text-white md:text-lg py-2 lg:text-lg font-medium rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
                   </Link>
                   {/* External link to project */}
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
+                  <a href="#" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
                     <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 </div>
@@ -166,7 +160,7 @@ export default function Projects() {
                   <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
                   </Link>
                   {/* External link to project */}
-                  <a href="#" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
+                  <a href="#" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
                     <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
                   </a>
                 </div>

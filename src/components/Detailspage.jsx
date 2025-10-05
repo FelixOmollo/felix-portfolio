@@ -8,7 +8,7 @@ export default function ProjectDetails() {
   const project = projectsData.find(p => p.id === projectId);
 
   if (!project) {
-    return <Layout><p className="p-10">Project not found.</p></Layout>;
+    return <Layout><p className="p-10 mt-15">Project not found.</p></Layout>;
   }
 
   return (
@@ -22,7 +22,9 @@ export default function ProjectDetails() {
           </Link>
         </div>
 
-       {/* Hero Section */}
+        <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-4">
+
+          {/* Hero Section */}
         <div className="relative bg-black/40 rounded-2xl sm:col-span-full md:col-span-2 lg:col-span-6 lg:mb-2">
           <img className="w-full h-full sm:h-85 lg:h-95 object-cover rounded-2xl" src={project.image} alt={project.title} />
           <div className="absolute inset-0 flex flex-col justify-center sm:justify-end sm:mb-5 lg:mb-10 text-white text-left px-4 sm:px-6 lg:px-8 sm:text-lg">
@@ -89,11 +91,14 @@ export default function ProjectDetails() {
         {/* External Link */}
         <div className="bg-amber-200 p-4 mt-5 rounded-2xl md:col-span-1 lg:col-span-2 lg:row-start-3 lg:col-start-5 lg:self-start">
           <h2 className="font-bold flex text-xl justify-start md:text-2xl ml-2 mt-2">Project Links</h2>
-          <a href={project.link} target="_blank" rel="noopener noreferrer"
+          <a href={project.link} rel="noopener noreferrer"
              className="inline-flex gap-2 items-center md:justify-center border-[2px] md:w-full md:ml-5 md:mr-5 md:mt-2 border-green-600 text-green-600 px-10 py-3 rounded-md hover:bg-green-600 hover:border-white hover:text-white text-md lg:text-lg font-medium transition-transform duration-500 active:scale-115">
             <ExternalLink className="w-5 h-5 md:h-6 md:w-6" /> Live Demo
           </a>
         </div>
+
+        </div>
+
       </div>
     </Layout>
   );
