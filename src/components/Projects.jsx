@@ -28,7 +28,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-10">
 
           {/* Project 1 */}
-          <div className="bg-amber-800 grid lg:ml-5 sm:col-span-2 lg:col-span-3 rounded-2xl">
+          <div className="bg-amber-400 grid lg:ml-5 sm:col-span-2 lg:col-span-3 rounded-2xl">
 
                 {/* Image div */}
                 <div className="flex justify-center">
@@ -65,7 +65,7 @@ export default function Projects() {
 
 
           {/* Project 2 */}
-          <div className="bg-amber-600 grid lg:mr-5 sm:col-span-2 lg:col-span-3 rounded-2xl">
+          <div className="bg-amber-300 grid lg:mr-5 sm:col-span-2 lg:col-span-3 rounded-2xl">
 
                 {/* Image div */}
                 <div className="flex justify-center ">
@@ -104,7 +104,7 @@ export default function Projects() {
 
 
           {/* Project 3 */}
-          <div className="bg-amber-400 lg:ml-5 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
+          <div className="bg-amber-300 lg:ml-5 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
                 {/* Image div */}
                 <div className="flex justify-center ">
                   <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
@@ -136,7 +136,7 @@ export default function Projects() {
 
 
           {/* Project 4 */}
-          <div className="bg-amber-200 lg:mr-5 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
+          <div className="bg-amber-400 lg:mr-5 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
                 {/* Image div */}
                 <div className="flex justify-center ">
                   <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />

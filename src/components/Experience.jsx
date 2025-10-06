@@ -236,7 +236,7 @@ export default function Experience() {
                     <Briefcase className="w-5 h-5 sm:w-8 sm:h-8 text-green-800" />Volunteer Geospatial Analyst
                   </h2>
                   <h3 className="font-semibold text-md mt-2 mb-2 text-emerald-700 sm:text-xl">Taita Taveta County & Rotaract Club of Voi</h3>
-                  <span className="block text-gray-700 mb-4 sm:text-xl">Dec 2022</span>
+                  <span className="block text-gray-700 mb-4 sm:text-xl">Dec 2021</span>
                   {/* <hr className="border-t border-green-700 opacity-30 my-2" /> */}
                   <p className='sm:text-xl'>Participated in a community-led initiative to clean and map River Voi. Collected field data, contributed to mapping the river corridor using GPS and open-source tools, and supported environmental awareness efforts among local residents.</p>
                 </div>

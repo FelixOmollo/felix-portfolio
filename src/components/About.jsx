@@ -36,10 +36,10 @@ export default function About() {
 
            <h1 className="text-xl md:text-2xl text-left ml-2 font-bold md:mt-5 lg:mt-7 lg:text-2xl lg:ml-8">Meet Felix</h1>
            <div className='text-left text-sm sm:text-base md:text-lg lg:text-lg lg:mt-5 p-2 lg:pl-8 lg:pr-6'>
-            <p>I’m Felix, a passionate geospatial analyst based in Nairobi, Kenya, with expertise in remote sensing, spatial data analysis, and custom GIS solutions.</p> 
+            <p>I’m a Geospatial Analyst leveraging remote sensing, spatial data analysis, and custom GIS development to deliver smarter, more sustainable solutions.</p> 
             <p className="mt-2">I transform raw geospatial data into actionable insights for urban planning, environmental monitoring, and infrastructure development.  </p>
             <p className="mt-2">
-              I combine technical rigor with a passion for impact-driven spatial solutions—whether optimizing agriculture via NDVI or modeling urban growth.
+              I combine technical rigor with a passion for impact-driven spatial solutions. Whether automating land cover classification or modeling urban expansion, I focus on building solutions that turn complex geospatial data into clarity and impact.
             </p>
             <p className="mt-2">Take a peek into my background and experience below.</p>
            </div>

@@ -55,7 +55,7 @@ export default function Mappage () {
             <iframe 
             src={map.imaplink}
             title={map.title}
-            className="w-full h-[500px] mt-4 border rounded-lg"/>
+            className="w-full h-[500px] md:h-[700px] mt-4 border rounded-lg"/>
             <Link to="/#projects" className="text-lg flex justify-center mt-4 text-blue-500  hover:text-amber-600 transition lg:text-xl">Back to projects</Link>
         </div>
     );
