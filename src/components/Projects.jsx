@@ -1,6 +1,8 @@
 import { ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import footerBg2 from '../assets/footerBg2.jpg';
+import ndre_v03 from '../assets/ndre_v03.webp';
+import lulc_v04 from '../assets/lulc_v04.webp';
 
 
 
@@ -31,8 +33,9 @@ export default function Projects() {
           <div className="bg-amber-400 grid lg:ml-5 sm:col-span-2 lg:col-span-3 rounded-2xl">
 
                 {/* Image div */}
-                <div className="flex justify-center">
+                <div className="relative flex justify-center">
                   <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
+                  <div className="absolute inset-0 bg-black/10 rounded-t-2xl z-10"></div>
                 </div>
 
                 {/* Text content */}
@@ -68,10 +71,9 @@ export default function Projects() {
           <div className="bg-amber-300 grid lg:mr-5 sm:col-span-2 lg:col-span-3 rounded-2xl">
 
                 {/* Image div */}
-                <div className="flex justify-center ">
-
-                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
-
+                <div className="relative flex justify-center ">
+                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={ndre_v03} alt="Dummy" />
+                  <div className="absolute inset-0 bg-black/10 rounded-t-2xl z-10"></div>
                 </div>
 
                 {/* Text content */}
@@ -106,8 +108,9 @@ export default function Projects() {
           {/* Project 3 */}
           <div className="bg-amber-300 lg:ml-5 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
                 {/* Image div */}
-                <div className="flex justify-center ">
-                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
+                <div className="relative flex justify-center ">
+                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={lulc_v04} alt="Dummy" />
+                  <div className="absolute inset-0 bg-black/10 rounded-t-2xl z-10"></div>
                 </div>
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">
@@ -138,8 +141,9 @@ export default function Projects() {
           {/* Project 4 */}
           <div className="bg-amber-400 lg:mr-5 grid sm:col-span-2 lg:col-span-3 rounded-2xl">
                 {/* Image div */}
-                <div className="flex justify-center ">
+                <div className="relative flex justify-center ">
                   <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
+                  <div className="absolute inset-0 bg-black/10 rounded-t-2xl z-10"></div>
                 </div>
                 {/* Text content */}
                 <div className="text-left mt-5 ml-5">

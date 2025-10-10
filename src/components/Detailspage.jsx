@@ -25,9 +25,11 @@ export default function ProjectDetails() {
         <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-4">
 
           {/* Hero Section */}
-        <div className="relative bg-black/40 rounded-2xl sm:col-span-full md:col-span-2 lg:col-span-6 lg:mb-2">
+        <div className="relative rounded-2xl sm:col-span-full md:col-span-2 lg:col-span-6 lg:mb-2">
           <img className="w-full h-full sm:h-85 lg:h-95 object-cover rounded-2xl" src={project.image} alt={project.title} />
-          <div className="absolute inset-0 flex flex-col justify-center sm:justify-end sm:mb-5 lg:mb-10 text-white text-left px-4 sm:px-6 lg:px-8 sm:text-lg">
+          {/* Black overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent rounded-2xl z-10"></div>
+          <div className="absolute inset-0 z-20 flex flex-col justify-center sm:justify-end sm:mb-5 lg:mb-10 text-white text-left px-4 sm:px-6 lg:px-8 sm:text-lg">
             <span className="inline-block bg-green-800 text-sm text-white md:text-lg font-semibold px-2 py-1 md:mb-5 mb-4 rounded-full w-max">{project.category}</span>
             <h2 className="text-3xl font-bold">{project.title}</h2>
             <p className="max-w-xl lg:max-w-none mt-2 text-md lg:text-xl">{project.description}</p>

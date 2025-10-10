@@ -153,8 +153,7 @@ export default function Experience() {
                   <h3 className="font-semibold text-md mt-2 mb-2 text-emerald-700 sm:text-xl">Ramani Geosystems Ltd.</h3>
                   <span className="block text-gray-700 mb-4 sm:text-xl">Mar 2025 - Current</span>
                   {/* <hr className="border-t border-green-700 opacity-30 my-2" /> */}
-                  <p className='sm:text-xl'>Processed and analyzed satellite imagery for agricultural monitoring and land use classification. 
-                    Developed automated workflows for change detection and crop yield prediction.</p>
+                  <p className='sm:text-xl'>Prepare and validate spatial datasets to ensure data quality and accuracy prior to analysis. Contribute to the development of automated workflows supporting change detection and infrastructure development projects.</p>
                 </div>
 
             </div>
@@ -175,7 +174,7 @@ export default function Experience() {
                   <span className="block text-gray-700 mb-4 sm:text-xl">May 2024 - Sept 2024</span>
                   {/* <hr className="border-t border-green-700 opacity-30 my-2" /> */}
                   <p className='sm:text-xl'>Processed and analyzed satellite imagery for agricultural monitoring and land use classification. 
-                    Developed automated workflows for change detection and crop yield prediction.</p>
+                    Assisted in developing automated workflows for change detection and crop yield prediction.</p>
                 </div>
 
             </div>

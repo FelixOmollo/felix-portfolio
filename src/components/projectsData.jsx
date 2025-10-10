@@ -1,5 +1,7 @@
 // src/data/projectsData.js
 import detailsDummy from '../assets/detailsDummy.jpg';
+import ndre_v04 from '../assets/ndre_v04.webp';
+import lulc_v03 from '../assets/lulc_v03.webp';
 
 export const projectsData = [
   {
@@ -46,7 +48,7 @@ export const projectsData = [
     id: "precision-agriculture",
     category: "Precision Agriculture / Drone Mapping",
     title: "Crop Health Assessment and Analysis Using Drone Imagery",
-    image: detailsDummy,
+    image: ndre_v04,
     description:
       "This project applies drone imagery to map and visualize crop health, vigor, and plant metrics, helping farmers optimize irrigation, fertilization, and pest control.",
     overview:
@@ -86,7 +88,7 @@ export const projectsData = [
     id: "lulc-kajiado",
     category: "Environmental Monitoring / Remote Sensing",
     title: "Land Use Land Cover Classification Using Machine Learning",
-    image: detailsDummy,
+    image: lulc_v03,
     description:
       "Automated land use and land cover (LULC) classification for Kajiado County, Kenya, using Sentinel-2 data and ESA’s WorldCover dataset for ground truthing, followed by post-processing in ArcGIS Pro and QGIS.",
     overview:
