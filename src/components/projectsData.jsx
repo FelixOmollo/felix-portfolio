@@ -1,6 +1,6 @@
 // src/data/projectsData.js
 import detailsDummy from '../assets/detailsDummy.jpg';
-import ndre_v04 from '../assets/ndre_v04.webp';
+import ndre_v05 from '../assets/ndre_v05.webp';
 import lulc_v05 from '../assets/lulc_v05.webp';
 
 export const projectsData = [
@@ -48,7 +48,7 @@ export const projectsData = [
     id: "precision-agriculture",
     category: "Precision Agriculture / Drone Mapping",
     title: "Crop Health Assessment and Analysis Using Drone Imagery",
-    image: ndre_v04,
+    image: ndre_v05,
     description:
       "This project applies drone imagery to map and visualize crop health, vigor, and plant metrics, helping farmers optimize irrigation, fertilization, and pest control.",
     overview:
