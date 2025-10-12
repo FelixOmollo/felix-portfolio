@@ -17,7 +17,7 @@ export default function ProjectDetails() {
         
         {/* Back Button */}
         <div className='flex flex-start'>
-          <Link to="/#projects" className="inline-block mb-6 text-blue-700 mt-5 hover:text-amber-600 transition sm:text-lg lg:text-xl">
+          <Link to="/#projects" className="inline-block mb-8 text-blue-700 mt-5 hover:text-amber-600 transition sm:text-lg md:text-xl lg:text-xl">
             ← Back to portfolio
           </Link>
         </div>
@@ -94,7 +94,7 @@ export default function ProjectDetails() {
         <div className="bg-amber-200 p-4 mt-5 rounded-2xl md:col-span-1 lg:col-span-2 lg:row-start-3 lg:col-start-5 lg:self-start">
           <h2 className="font-bold flex text-xl justify-start md:text-2xl mb-2 ml-2 mt-2">Project Links</h2>
           <a href={project.link} rel="noopener noreferrer"
-             className="inline-flex gap-2 items-center md:justify-center border-[2px] md:w-full md:ml-5 lg:ml-0 md:mr-5 md:mt-2 border-green-600 text-green-600 px-10 py-3 rounded-md hover:bg-green-600 hover:border-white hover:text-white text-md lg:text-lg font-medium transition-transform duration-500 active:scale-115">
+             className="inline-flex gap-2 items-center md:justify-center border-[2px] md:w-3/4 md:ml-0 lg:ml-0 md:mr-5 md:mt-10 lg:mt-5 lg:mb-3 border-green-600 text-green-600 px-10 py-3 rounded-md hover:bg-green-600 hover:border-white hover:text-white text-lg lg:text-lg font-medium transition-transform duration-500 active:scale-115">
             <ExternalLink className="w-5 h-5 md:h-6 md:w-6" /> Live Demo
           </a>
         </div>

@@ -2,13 +2,14 @@
 import detailsDummy from '../assets/detailsDummy.jpg';
 import ndre_v05 from '../assets/ndre_v05.webp';
 import lulc_v05 from '../assets/lulc_v05.webp';
+import risk6 from '../assets/risk6.webp';
 
 export const projectsData = [
   {
     id: "flood-analysis",
     category: "Disaster Management",
     title: "Flood Assessment of Barahle Refugee Camp, Ethiopia",
-    image: detailsDummy,
+    image: risk6,
     description:
         "This map identifies flood-prone areas within the Barahle refugee camp in Ethiopia, highlighting vulnerable buildings and infrastructure. The analysis supports disaster preparedness and safer planning for refugee communities.",
     overview:

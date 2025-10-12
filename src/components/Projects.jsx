@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import footerBg2 from '../assets/footerBg2.jpg';
 import ndre_v03 from '../assets/ndre_v03.webp';
 import lulc_v04 from '../assets/lulc_v04.webp';
+import risk_v2 from '../assets/risk_v2.webp';
 
 
 
@@ -34,7 +35,7 @@ export default function Projects() {
 
                 {/* Image div */}
                 <div className="relative flex justify-center">
-                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={footerBg2} alt="Dummy" />
+                  <img className="rounded-t-2xl w-full sm:h-64 object-cover" src={risk_v2} alt="Dummy" />
                   <div className="absolute inset-0 bg-black/10 rounded-t-2xl z-10"></div>
                 </div>
 
@@ -55,12 +56,12 @@ export default function Projects() {
                 </div>
 
                 {/* Button */}
-                <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
+                <div className="flex mb-5 mt-5 md:mt-7 lg:mt-5 ml-5 items-center gap-3 md:gap-5 lg:gap-3">
                   <Link to="/projects/flood-analysis" className="inline-block bg-blue-700 text-white py-2 md:text-lg lg:text-lg font-medium rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 focus:scale-102">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="/mappage/flood_analysis" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
-                    <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
+                    <ExternalLink className="w-5 h-5 md:w-10 md:h-6" />
                   </a>
                 </div>
 
@@ -93,12 +94,12 @@ export default function Projects() {
                 </div>
 
                 {/* Button */}
-                <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
+                <div className="flex mb-5 mt-5 md:mt-7 lg:mt-5 ml-5 items-center gap-3 md:gap-5 lg:gap-3">
                   <Link to="/projects/precision-agriculture" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="/mappage/precision_agriculture" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
-                    <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
+                    <ExternalLink className="w-5 h-5 md:w-10 md:h-6" />
                   </a>
                 </div>
 
@@ -127,12 +128,12 @@ export default function Projects() {
                       ))}
                 </div>
                 {/* Button */}
-                <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
+                <div className="flex mb-5 mt-5 md:mt-7 lg:mt-5 ml-5 items-center gap-3 md:gap-5 lg:gap-3">
                   <Link to="/projects/lulc-kajiado" className="inline-block bg-blue-700 text-white md:text-lg py-2 lg:text-lg font-medium rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="#" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
-                    <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
+                    <ExternalLink className="w-5 h-5 md:w-10 md:h-6" />
                   </a>
                 </div>
           </div>
@@ -160,12 +161,12 @@ export default function Projects() {
                       ))}
                 </div>
                 {/* Button */}
-                <div className="flex mb-5 mt-5 ml-5 items-center gap-3">
+                <div className="flex mb-5 mt-5 md:mt-7 lg:mt-5 ml-5 items-center gap-3 md:gap-5 lg:gap-3">
                   <Link to="/details" className="inline-block bg-blue-700 text-white md:text-lg lg:text-lg font-medium py-2 rounded-2xl w-40 shadow hover:bg-amber-600 transition-transform duration-500 active:scale-115">View Details
                   </Link>
                   {/* External link to project */}
                   <a href="#" rel="noopener noreferrer" className="inline-flex items-center justify-center border border-green-800 text-green-800 p-2 rounded-md hover:bg-green-800 hover:text-white transition-transform duration-500 active:scale-125"> 
-                    <ExternalLink className="w-5 h-5 md:w-6 md:h-6" />
+                    <ExternalLink className="w-5 h-5 md:w-10 md:h-6" />
                   </a>
                 </div>
           </div>
