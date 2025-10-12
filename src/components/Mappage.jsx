@@ -51,12 +51,12 @@ export default function Mappage () {
     return(
         <div className="p-6">
             <h2 className='font-extrabold text-4xl'>{map.title}</h2>
-            <p className="mt-2 text-xl">{map.description}</p>
+            <p className="mt-2 md:mt-4 text-xl">{map.description}</p>
             <iframe 
             src={map.imaplink}
             title={map.title}
-            className="w-full h-[500px] md:h-[700px] mt-4 border rounded-lg"/>
-            <Link to="/#projects" className="text-lg flex justify-center mt-4 text-blue-500  hover:text-amber-600 transition lg:text-xl">Back to projects</Link>
+            className="w-full h-[500px] md:h-[800px] lg:h-[500px] mt-4 md:mt-8 border rounded-lg"/>
+            <Link to="/#projects" className="text-lg flex justify-center mt-4 md:mt-7 text-blue-500  hover:text-amber-600 transition md:text-xl">Back to projects</Link>
         </div>
     );
 }
