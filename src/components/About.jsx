@@ -63,7 +63,7 @@ export default function About() {
         </div>
 
         {/* Areas of Interest */}
-        <div className="bg-gray-300 rounded-2xl sm:col-span-1 lg:col-span-3 mt-4 sm:mt-63 md:mt-67 lg:mt-4 sm:self-start sm:row-start-1 lg:row-start-1 sm:col-start-1 lg:col-start-4">
+        <div className="bg-gray-300 rounded-2xl sm:col-span-1 lg:col-span-3 mt-4 sm:mt-63 md:mt-67 lg:mt-0 sm:self-start sm:row-start-1 lg:row-start-1 sm:col-start-1 lg:col-start-4">
 
           <h1 className="text-xl md:text-2xl lg:text-2xl font-bold ml-2 md:ml-3 mt-3 md:mt-3 lg:mt-7 mb-4 text-left lg:ml-4">Areas Of Interest</h1>
 
