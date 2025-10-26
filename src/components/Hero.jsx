@@ -15,7 +15,7 @@ export default function Hero() {
         </div>
                                 {/* Buttons */}
         <div className="flex flex-col sm:flex-row items-center sm:justify-center sm:items-center gap-4 md:gap-20 md:mt-15 lg:gap-15 lg:mt-6 mt-6">
-            <a href="/Felix_Odhiambo_GIS_CV.pdf" download className="bg-blue-700 text-white lg:text-xl md:text-2xl px-6 md:px-7 py-3 rounded-b-4xl rounded-t-2xl shadow hover:bg-amber-500 transition-transform duration-500 active:scale-102">Download CV</a>
+            <a href="Felix-Omollo-GIS-CV.pdf" download className="bg-blue-700 text-white lg:text-xl md:text-2xl px-6 md:px-7 py-3 rounded-b-4xl rounded-t-2xl shadow hover:bg-amber-500 transition-transform duration-500 active:scale-102">Download CV</a>
             <a href="#projects" className="mt-6 inline-block bg-blue-700 text-white px-6 py-3 md:text-2xl lg:text-xl md:px-7 rounded-t-4xl rounded-b-2xl shadow hover:bg-amber-500 transition-transform duration-500 active:scale-102">Geospatial Portfolio</a>
         </div>
                                 {/* Scroll down */}
