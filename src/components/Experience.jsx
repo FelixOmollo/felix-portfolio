@@ -17,11 +17,11 @@ import 'swiper/css/pagination';
 // Certificates array
 const certificates = [
    {
-    title: "Geo Web App building with OS tools",
-    institution: "Geoversity",
+    title: "RS for Water Resources Management",
+    institution: "NASA-ARSET",
     year: "2025",
-    img: "/uavs-in-precision-agriculture-certificate.jpg",
-    description: "Training in building geospatial web apps using open-source modern mapping technologies."
+    img: "/ARSET-certificate-water-resources-management.jpg",
+    description: "Introductory training on NASA snow and ice data products and their applications for water resources management."
   },
   {
     title: "UAVs In Precision Agriculture",

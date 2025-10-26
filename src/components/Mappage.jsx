@@ -16,7 +16,7 @@ const mapsData = [
     {
         id: "project3",
         title: "Flood Risk Zones in Kisumu",
-        imaplink: "https://example.com/map3",
+        imaplink: "http://localhost:8080/geoserver/lulc_project/wms?service=WMS",
         description: "Flood-prone areas mapped using Sentinel-2 and DEM data."
     },
     {
