@@ -10,7 +10,7 @@ export default function Hero() {
                                 {/* Text content on top */}
         <div className="flex flex-col items-center lg:items-start sm:items-center space-y-2 sm:space-y-4">
           <p className="text-white text-md sm:text-lg md:mb-10 lg:mb-0 md:text-3xl lg:text-2xl">Hello, I'm</p>
-          <h1 className="text-4xl font-extrabold text-blue-900 sm:text-6xl md:text-8xl">Felix Omollo</h1>
+          <h1 className="text-4xl font-extrabold text-blue-700 sm:text-6xl md:text-8xl">Felix Omollo</h1>
           <p className="text-white text-md sm:text-base m-2 md:m-10 lg:m-0 md:text-3xl lg:text-2xl">A Geospatial Analyst </p>
         </div>
                                 {/* Buttons */}
