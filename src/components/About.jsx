@@ -24,15 +24,15 @@ export default function About() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-4">
 
         {/* Pic */}
-        <div className="bg-green-400 sm:col-span-1 lg:col-span-3 lg:col-start-1 rounded-2xl place-items-center sm:self-start gap-5 py-4 sm:row-start-1 sm:col-start-1" >
+        <div className="bg-green-400 sm:col-span-1 lg:col-span-3 lg:col-start-1 rounded-2xl place-items-center sm:self-start gap-5 py-4 sm:row-start-1 sm:col-start-1 shadow-2xl" >
 
-          <img className="h-40 w-40 object-cover rounded-full border-4 border-white" src={ProfilePic} alt="Profile Photo"/>
+          <img className="h-40 w-40 object-cover rounded-full border-4 border-white shadow-2xl" src={ProfilePic} alt="Profile Photo"/>
           <div className="font-bold mt-10 sm:mt-7 md:text-lg lg:text-lg">你好！(Nǐ hǎo!) 👋</div>
 
         </div>
 
         {/* About me */}
-        <div className="bg-amber-500 text-black-300 rounded-2xl sm:col-span-1 md:col-span-1 lg:col-span-3 mt-4 sm:mt-0 sm:col-start-2 lg:col-start-1 sm:row-start-1 lg:row-start-2 sm:self-start">
+        <div className="bg-amber-500 text-black-300 rounded-2xl sm:col-span-1 md:col-span-1 lg:col-span-3 mt-4 sm:mt-0 sm:col-start-2 lg:col-start-1 sm:row-start-1 lg:row-start-2 sm:self-start shadow-2xl">
 
            <h1 className="text-xl md:text-2xl text-left ml-2 font-bold mt-3 md:mt-5 lg:mt-7 lg:text-2xl lg:ml-8">Meet Felix</h1>
            <div className='text-left text-sm sm:text-base md:text-lg lg:text-lg lg:mt-5 p-2 lg:pl-8 lg:pr-6'>
@@ -49,7 +49,7 @@ export default function About() {
         </div>
 
         {/* Technical skills */}
-        <div className="bg-amber-700 text-black rounded-2xl sm:col-span-2 lg:col-start-4 lg:row-start-2 lg:col-span-3 mt-4 md:mt-2 lg:mt-0 lg:self-start">
+        <div className="bg-amber-700 text-black rounded-2xl sm:col-span-2 lg:col-start-4 lg:row-start-2 lg:col-span-3 mt-4 md:mt-2 lg:mt-0 lg:self-start shadow-2xl">
 
                 <h1 className="text-xl md:text-2xl lg:text-2xl font-bold mb-4 mt-3 md:mt-3 md:mb-8 lg:pt-2 text-left ml-2 md:ml-3 lg:ml-4">Technical Skills</h1>
                 <div className="flex flex-wrap justify-center items-center gap-2 md:gap-3 mb-5 md:mb-8">
@@ -63,7 +63,7 @@ export default function About() {
         </div>
 
         {/* Areas of Interest */}
-        <div className="bg-gray-300 rounded-2xl sm:col-span-1 lg:col-span-3 mt-4 sm:mt-63 md:mt-67 lg:mt-0 sm:self-start sm:row-start-1 lg:row-start-1 sm:col-start-1 lg:col-start-4">
+        <div className="bg-gray-300 rounded-2xl sm:col-span-1 lg:col-span-3 mt-4 sm:mt-63 md:mt-67 lg:mt-0 sm:self-start sm:row-start-1 lg:row-start-1 sm:col-start-1 lg:col-start-4 shadow-2xl">
 
           <h1 className="text-xl md:text-2xl lg:text-2xl font-bold ml-2 md:ml-3 mt-3 md:mt-3 lg:mt-7 mb-4 text-left lg:ml-4">Areas Of Interest</h1>
 

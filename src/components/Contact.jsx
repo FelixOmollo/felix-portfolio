@@ -34,7 +34,7 @@ export default function Contact() {
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
 
         {/* Contact Info */}
-        <div className="bg-green-800 lg:col-span-1 text-amber-200 rounded-2xl md:self-start space-y-2 px-3 md:mt-10 sm:px-4 md:px-4 ml-5 mr-5 sm:ml-20 sm:mr-20 md:ml-10 md:mr-10 lg:ml-10 lg:mr-5 text-left">
+        <div className="bg-green-800 lg:col-span-1 text-amber-200 rounded-2xl md:self-start space-y-2 px-3 md:mt-10 sm:px-4 md:px-4 ml-5 mr-5 sm:ml-20 sm:mr-20 md:ml-10 md:mr-10 lg:ml-10 lg:mr-5 text-left shadow-2xl">
 
           {/* Encouraging contact message */}
           <div className="py-2 ml-3">
@@ -88,7 +88,7 @@ export default function Contact() {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="ml-5 mr-5 sm:ml-20 sm:mr-20 md:ml-10 md:mr-10 mt-10 bg-cyan-500 p-2 rounded-2xl shadow-3xl lg:text-lg lg:col-span-1 lg:ml-15 lg:mr-20">
+          className="ml-5 mr-5 sm:ml-20 sm:mr-20 md:ml-10 md:mr-10 mt-10 bg-cyan-500 p-2 rounded-2xl shadow-3xl lg:text-lg lg:col-span-1 lg:ml-15 lg:mr-20 shadow-2xl">
 
           <div className="px-4 mt-6 text-left">
             <label className="block text-sm font-medium mb-2 md:text-lg lg:text-xl">Name</label>
